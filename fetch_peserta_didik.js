@@ -8,27 +8,38 @@
   const DELAY_PAGE_MS = 100;
   const CONCURRENCY = 4;
   const SCHOOL_CONCURRENCY = 2;
-  const LOG_EVERY = 25;
 
   const setTitle = t => { try { document.title = t; } catch (e) {} };
   const slug = s => String(s).replace(/[<>:"/\\|?*]+/g, '').replace(/\s+/g, '_').slice(0, 80);
   const pad = (n) => String(n).padStart(2, '0');
   const ts = () => `${pad(new Date().getHours())}:${pad(new Date().getMinutes())}:${pad(new Date().getSeconds())}`;
-  const log = (...a) => console.log(`[${ts()}]`, ...a);
+  const notes = [];
+  const note = (...a) => {
+    notes.push(`[${ts()}] ${a.join(' ')}`);
+    if (notes.length > 60) notes.shift();
+  };
   const banner = () => {
     console.log('%c━━━ FETCH PD DAPODIK ━━━', 'color:#0af;font-weight:bold;font-size:14px');
     console.log('  • kontrol:    window._fetch.pause() / .resume() / .stop()');
     console.log('  • status:     window._fetch.stats()');
     console.log('  • csv cepat:   window._fetch.download()');
-    log('  • delay:      sekolah', DELAY_SCHOOL_MS, 'page', DELAY_PAGE_MS, 'ms');
+    console.log(`  • delay:      sekolah ${DELAY_SCHOOL_MS} page ${DELAY_PAGE_MS} ms`);
     console.log('%c━━━━━━━━━━━━━━━━━━━━━━', 'color:#0af');
   };
 
   const cleanFetch = (() => {
-    const f = document.createElement('iframe');
-    f.style.display = 'none';
-    document.body.appendChild(f);
-    return f.contentWindow.fetch.bind(f.contentWindow);
+    let ifetch;
+    const ready = new Promise(resolve => {
+      const f = document.createElement('iframe');
+      f.style.display = 'none';
+      f.src = location.origin + '/manage';
+      f.onload = () => {
+        try { ifetch = f.contentWindow.fetch.bind(f.contentWindow); resolve(); }
+        catch (e) { note('iframe init gagal:', String(e)); resolve(); }
+      };
+      document.body.appendChild(f);
+    });
+    return async (...args) => { await ready; return ifetch(...args); };
   })();
 
   const ctrl = { paused: false, stopped: false, schoolConc: SCHOOL_CONCURRENCY };
@@ -41,25 +52,32 @@
     while (wafHits.length && now - wafHits[0] > 30000) wafHits.shift();
     if (wafHits.length >= 3 && ctrl.schoolConc > 1) {
       ctrl.schoolConc = 1;
-      log('⚠ WAF berulang (3x/30dtk) — paralel sekolah turun ke 1. Akan naik lagi setelah 2 menit bersih.');
+      note('⚠ WAF berulang (3x/30dtk) — paralel sekolah turun ke 1. Akan naik lagi setelah 2 menit bersih.');
     }
   };
   const wafWatchdog = setInterval(() => {
     const now = Date.now();
     if (ctrl.schoolConc === 1 && (!wafHits.length || now - wafHits[wafHits.length - 1] > 120000)) {
       ctrl.schoolConc = SCHOOL_CONCURRENCY;
-      log('WAF bersih 2 menit — paralel sekolah kembali ke', SCHOOL_CONCURRENCY);
+      note('WAF bersih 2 menit — paralel sekolah kembali ke', SCHOOL_CONCURRENCY);
     }
   }, 30000);
 
-  const isWaf = (res, body) => {
+  const isChallenge = (res, body) => {
     if (res && res.status === 468) return true;
-    if (body && /SafeLine|challenge|Access Forbidden/i.test(body.slice(0, 4000))) return true;
+    if (body && /sl-waf-script|sl_verify|_sl_waf|safeline[-_ ]?challenge/i.test(body.slice(0, 4000))) return true;
+    return false;
+  };
+  const isBlock = (res, body) => {
+    if (!res) return false;
+    if (res.status === 468) return false;
+    if (res.status === 429) return true;
+    if (/^4\d\d$/.test(String(res.status)) && body && /SafeLine|\.safeline\/|Access Forbidden|slg-title/i.test(body.slice(0, 2000))) return true;
     return false;
   };
   const waitForWAF = async (ctx) => {
     wafHit();
-    log('⚠ WAF/SafeLine terdeteksi saat:', ctx);
+    note('⚠ WAF/SafeLine terdeteksi saat:', ctx);
     setTitle('[WAF] selesaikan validasi SafeLine di halaman...');
     while (true) {
       const ok = prompt('Validasi SafeLine/WAF muncul di halaman? Selesaikan dulu (challenge), lalu klik OK untuk lanjut. (Klik Cancel untuk berhenti)');
@@ -69,27 +87,39 @@
           method: 'GET', credentials: 'include', signal: AbortSignal.timeout(15000)
         });
         const t = await r.text();
-        if (!isWaf(r, t)) { log('WAF selesai, lanjut...'); return; }
-      } catch (e) { log('probe WAF gagal:', String(e)); }
-      log('WAF masih aktif, ulangi validasi...');
+        if (!isChallenge(r, t)) { note('WAF selesai, lanjut...'); return; }
+      } catch (e) { note('probe WAF gagal:', String(e)); }
+      note('WAF masih aktif, ulangi validasi...');
     }
   };
 
   const withRetry = async (url, opts) => {
-    for (let a = 1; a <= RETRIES; a++) {
+    let tries = 0;
+    while (true) {
       try {
         const res = await cleanFetch(url, opts);
         const text = await res.text();
-        if (isWaf(res, text)) {
+        if (isChallenge(res, text)) {
           await waitForWAF(url);
+          tries = 0;
+          continue;
+        }
+        if (isBlock(res, text)) {
+          const waitMs = Math.min(60000, 5000 * (2 ** tries)) + Math.random() * 2000;
+          note(`⏳ diblokir SafeLine (${res.status}) ${url} — tunggu ${Math.round(waitMs / 1000)}s`);
+          if (ctrl.schoolConc > 1) ctrl.schoolConc = 1;
+          await sleep(waitMs);
+          tries++;
+          if (tries > 6) return { ok: false, error: 'HTTP ' + res.status };
           continue;
         }
         if (!res.ok) throw new Error('HTTP ' + res.status);
         return { ok: true, data: JSON.parse(text) };
       } catch (e) {
         if (/dihentikan user/.test(String(e))) return { ok: false, error: String(e), wafAbort: true };
-        if (a === RETRIES) return { ok: false, error: String(e) };
-        await new Promise(s => setTimeout(s, 2000 * a));
+        if (tries >= RETRIES - 1) return { ok: false, error: String(e) };
+        tries++;
+        await new Promise(s => setTimeout(s, 2000 * tries));
       }
     }
   };
@@ -110,12 +140,19 @@
       try {
         const res = await cleanFetch(URL_DET(PD_id, sekolah_id), {
           method: 'GET',
-          headers: { 'Accept': 'text/html,application/xhtml+xml', 'Referer': 'https://datadik.kemendikdasmen.go.id/manage' },
+          headers: { 'Accept': 'text/html,application/xhtml+xml' },
           signal: AbortSignal.timeout(10000)
         });
         const text = await res.text();
-        if (isWaf(res, text)) {
+        if (isChallenge(res, text)) {
           await waitForWAF(PD_id);
+          continue;
+        }
+        if (isBlock(res, text)) {
+          const waitMs = Math.min(60000, 5000 * (2 ** a)) + Math.random() * 2000;
+          note(`⏳ diblokir SafeLine (${res.status}) detailpd — tunggu ${Math.round(waitMs / 1000)}s`);
+          if (ctrl.schoolConc > 1) ctrl.schoolConc = 1;
+          await sleep(waitMs);
           continue;
         }
         if (!res.ok) return { ok: false, status: res.status, raw: text.slice(0, 200) };
@@ -200,10 +237,10 @@
         if (UUID.test(String(rows[0][c] || ''))) { idCol = c; break; }
       }
     }
-    log(`rekapsp field="${extra}": ${rows.length} sekolah, kolom id=${idCol} (${header[idCol] || '-'})`);
+    note(`rekapsp field="${extra}": ${rows.length} sekolah, kolom id=${idCol} (${header[idCol] || '-'})`);
     if (idCol >= 0) break;
   }
-  if (!rows.length) return log('gagal ambil rekapsp:', JSON.stringify(header).slice(0, 300));
+  if (!rows.length) return note('gagal ambil rekapsp:', JSON.stringify(header).slice(0, 300));
 
   const field = h => header.indexOf(h);
   const schools = rows.map(r => ({
@@ -272,37 +309,39 @@
     }
   }
   filterName = slug(filterName);
-  log(`filter: ${filtered.length} sekolah (dari ${schools.length})`);
-  if (!filtered.length) return log('tidak ada hasil');
+  note(`filter: ${filtered.length} sekolah (dari ${schools.length})`);
+  if (!filtered.length) return note('tidak ada hasil');
 
   const esc = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
   const pdKeys = ['nama', 'jenis_kelamin', 'tanggal_lahir', 'nama_ibu_kandung', 'nik', 'nisn', 'last_update', 'rombel', 'tingkat', 'peserta_didik_id', 'rombongan_belajar_id'];
   const headerLine = ['sekolah_id', 'npsn', 'nama_sekolah', 'bentuk', 'kecamatan', 'kabupaten', 'agama', ...pdKeys];
   const lines = [headerLine.map(esc).join(',')];
-  const doDownload = (note) => {
+  const doDownload = (msg) => {
     const blob = new Blob(['\ufeff' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = `peserta_didik_${filterName}_${new Date().toISOString().slice(0, 10)}.csv`;
     a.click();
-    if (note) log(note);
-    log(`CSV terdownload: ${lines.length - 1} baris`);
+    if (msg) note(msg);
+    note(`CSV terdownload: ${lines.length - 1} baris`);
   };
 
-  let nPd = 0, nErr = 0, nNoAgama = 0, nSampled = 0, t0 = Date.now(), curSchool = 0;
+  let nPd = 0, nErr = 0, nAgamaOk = 0, nAgamaFail = 0, t0 = Date.now(), curSchool = 0;
+  let poolLine = '';
   let aborted = false;
 
   window._fetch = {
-    pause: () => { ctrl.paused = true; log('⏸ pause — request berjalan selesai, sisanya tertahan'); },
-    resume: () => { ctrl.paused = false; log('▶ resume'); },
-    stop: () => { ctrl.stopped = true; log('⏹ stop — selesai setelah request aktif selesai'); },
+    pause: () => { ctrl.paused = true; note('⏸ pause — request berjalan selesai, sisanya tertahan'); },
+    resume: () => { ctrl.paused = false; note('▶ resume'); },
+    stop: () => { ctrl.stopped = true; note('⏹ stop — selesai setelah request aktif selesai'); },
     stats: () => {
       const elapsed = (Date.now() - t0) / 1000;
       return {
         sekolah: curSchool,
         totalSekolah: filtered.length,
         siswa: nPd,
-        agamaKosong: nNoAgama,
+        agamaBerhasil: nAgamaOk,
+        agamaGagal: nAgamaFail,
         errorSekolah: nErr,
         ratePerDetik: elapsed ? +(nPd / elapsed).toFixed(1) : 0,
         paused: ctrl.paused
@@ -310,6 +349,22 @@
     },
     download: doDownload
   };
+
+  const buildStatus = () => {
+    const elapsed = (Date.now() - t0) / 1000;
+    const rate = elapsed ? (nPd / elapsed).toFixed(1) : '0.0';
+    const msg = `siswa ${nPd} | sekolah ${curSchool}/${filtered.length} | agama berhasil ${nAgamaOk}, gagal ${nAgamaFail} | ${rate}/dtk`;
+    setTitle(msg);
+    return msg;
+  };
+  const render = () => {
+    console.clear();
+    banner();
+    for (const l of notes) console.log(l);
+    if (poolLine) console.log('%c' + poolLine, 'color:#0f0;font-weight:bold');
+    console.log('%c' + buildStatus(), 'color:#0af;font-weight:bold');
+  };
+  const renderTimer = setInterval(render, 1000);
 
   const keepAlive = setInterval(() => {
     cleanFetch('https://datadik.kemendikdasmen.go.id/manage', { method: 'GET', credentials: 'include', signal: AbortSignal.timeout(15000) })
@@ -320,7 +375,7 @@
   await dynamicPool(filtered, async (s, i) => {
     if (ctrl.stopped) return;
     curSchool = i + 1;
-    if ((i + 1) % 5 === 0 || i === 0) log(`[${i + 1}/${filtered.length}] ${s.npsn} ${s.kab}`);
+    if ((i + 1) % 5 === 0 || i === 0) note(`[${i + 1}/${filtered.length}] ${s.npsn} ${s.kab}`);
 
     let sid = s.id;
     if (!sid) {
@@ -342,10 +397,10 @@
       if (!res.ok || !Array.isArray(res.data) || res.data.length === 0) break;
       for (const pd of res.data) students.push(pd);
       page++;
-      await sleep(DELAY_PAGE_MS);
+      await sleep(DELAY_PAGE_MS + Math.random() * 150);
     }
 
-    if (students.length) log(`  ↳ ${s.npsn} ${students.length} siswa, pool agama...`);
+    if (students.length) poolLine = `↳ ${s.npsn} ${students.length} siswa, pool agama...`;
     const results = await runPool(students, CONCURRENCY, async (pd) => {
       const PD_id = pd.peserta_didik_id;
       if (!PD_id) return { ...pd, __agama: '' };
@@ -354,42 +409,34 @@
       let ag = '';
       if (r.ok) {
         ag = r.agama || '';
-        if (nSampled === 0) log('  [sample detailpd]', PD_id, 'agama=', JSON.stringify(ag));
+        nAgamaOk++;
       } else {
         if (r.wafAbort) { aborted = true; ctrl.stopped = true; }
-        log('  [agama-gagal]', PD_id, r.status || r.error);
+        nAgamaFail++;
       }
       return { ...pd, __agama: ag };
     });
 
     for (let j = 0; j < results.length; j++) {
       const pd = results[j];
-      nSampled++;
       const ag = pd.__agama || '';
-      if (!ag) nNoAgama++;
       const row = [sid, s.npsn, s.nama, s.bentuk, s.kec, s.kab, esc(ag), ...pdKeys.map(k => esc(pd[k]))];
       lines.push(row.map(esc).join(','));
       nPd++;
       if (pd.__agama) agamaCache.set(pd.peserta_didik_id, ag);
-
-      if (nSampled % LOG_EVERY === 0) {
-        const elapsed = (Date.now() - t0) / 1000;
-        const rate = (nPd / elapsed).toFixed(1);
-        const msg = `[siswa] ${nPd} total | sekolah ${curSchool}/${filtered.length} | agama-kosong ${nNoAgama} | rate ${rate}/s`;
-        log(msg);
-        setTitle(msg);
-      }
     }
 
-    await sleep(DELAY_SCHOOL_MS);
+    await sleep(DELAY_SCHOOL_MS + Math.random() * 200);
   });
 
   clearInterval(keepAlive);
   clearInterval(wafWatchdog);
+  clearInterval(renderTimer);
   setTitle(`[4/5] selesai: ${nPd} siswa`);
-  if (aborted) log('⚠ dihentikan user saat validasi WAF — hasil sebagian terdownload.');
-  if (ctrl.stopped) log('⏹ dihentikan user via window._fetch.stop() — hasil sebagian terdownload.');
-  log(`selesai: ${filtered.length} sekolah, ${nPd} peserta didik, ${nErr} sekolah error, ${nNoAgama} tanpa agama`);
+  if (aborted) note('⚠ dihentikan user saat validasi WAF — hasil sebagian terdownload.');
+  if (ctrl.stopped) note('⏹ dihentikan user via window._fetch.stop() — hasil sebagian terdownload.');
+  note(`selesai: ${filtered.length} sekolah, ${nPd} peserta didik, ${nErr} sekolah error, agama berhasil ${nAgamaOk}, gagal ${nAgamaFail}`);
   doDownload();
+  render();
   setTitle('[5/5] CSV terdownload');
 })();
