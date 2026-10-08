@@ -93,6 +93,26 @@
     const sel=el('select'); sel.multiple=true; sel.size=Math.min(12, kabs.length);
     for(const k of kabs){ const o=el('option',{}, `${k.kode} — ${k.nama}`); o.value=k.kode; sel.append(o); }
     box.append(sel);
+    const fLabel=el('div', {style:'margin:12px 0 6px;font-weight:600;color:#c9d1d9'}, 'Filter jenjang (kolom tingkat + nama_sekolah) — centang yang ingin ditarik:');
+    box.append(fLabel);
+    const jenjangBox=el('div', {style:'display:flex;gap:14px;flex-wrap:wrap;padding:8px 10px;background:#0d1117;border:1px solid #30363d;border-radius:8px'});
+    const jenjangDefs=[['sma','SMA'],['smk','SMK'],['smak','SMAK'],['slb','SLB']];
+    const jenjangCbs=[];
+    for(const [v,label] of jenjangDefs){
+      const lab=el('label', {style:'display:flex;align-items:center;gap:6px;cursor:pointer;color:#e6edf3;font-size:13px'});
+      const cb=el('input', {type:'checkbox', checked:true, value:v});
+      cb.style.accentColor='#1f6feb';
+      lab.append(cb, document.createTextNode(' '+label));
+      jenjangBox.append(lab);
+      jenjangCbs.push(cb);
+    }
+    box.append(jenjangBox);
+    const jenjangBar=el('div', {style:'display:flex;gap:8px;margin-top:6px'});
+    const bJAll=el('button', {style:'padding:3px 8px;font-size:11px'}, 'Pilih Semua Jenjang');
+    const bJNone=el('button', {style:'padding:3px 8px;font-size:11px'}, 'Kosongkan Jenjang');
+    bJAll.addEventListener('click',()=> jenjangCbs.forEach(c=>c.checked=true));
+    bJNone.addEventListener('click',()=> jenjangCbs.forEach(c=>c.checked=false));
+    jenjangBar.append(bJAll,bJNone); box.append(jenjangBar);
     const bar=el('div','dlgbar');
     const bAll=el('button',{},'Pilih Semua'), bNone=el('button',{},'Kosongkan'), bGo=el('button','go','Lanjut'), bCancel=el('button','bad','Batal');
     bAll.addEventListener('click',()=>{ [...sel.options].forEach(o=>o.selected=true); });
@@ -100,7 +120,9 @@
     bGo.addEventListener('click',()=>{
       const codes=[...sel.selectedOptions].map(o=>o.value);
       const picked=codes.length? kabs.filter(k=>codes.includes(k.kode)) : kabs.slice();
-      resolve(picked);
+      const jenjangSet=new Set(jenjangCbs.filter(c=>c.checked).map(c=>c.value));
+      const filterJenjang=jenjangSet.size===0||jenjangSet.size===jenjangDefs.length ? null : jenjangSet;
+      resolve({picked, filterJenjang});
     });
     bCancel.addEventListener('click',()=>{ root.remove(); resolve(null); });
     bar.append(bAll,bNone,bGo,bCancel); box.append(bar); content.append(box);
@@ -124,9 +146,11 @@
   log(`Prov ${PROV}: ${kabs.length} kab`, kabs.map(k=>k.kode).join(', '));
   if(!kabs.length){ log('0 kab — cek login/WAF'); return; }
   content.innerHTML='';
-  const picked=await askSelectKab(kabs);
-  if(!picked){ log('dibatalkan'); return; }
-  log(`dipilih ${picked.length}/${kabs.length} kab:`, picked.map(k=>k.kode).join(', '));
+  const selRes=await askSelectKab(kabs);
+  if(!selRes){ log('dibatalkan'); return; }
+  const picked=selRes.picked, filterJenjang=selRes.filterJenjang;
+  const fjLabel=filterJenjang ? [...filterJenjang].join('+') : 'semua';
+  log(`dipilih ${picked.length}/${kabs.length} kab:`, picked.map(k=>k.kode).join(', '), '| filter jenjang:', fjLabel);
   setStatus(`kec ${picked.length} kab...`);
   content.innerHTML='';
   const progKec=el('div','prog'); progKec.innerHTML=`<div class="ptitle">Ambil Kecamatan — ${picked.length} kab</div><div class="pbar"><div class="pfill"></div></div><div class="pstat">0 / ${picked.length}</div><div class="pnow"></div>`; content.append(progKec);
@@ -154,20 +178,44 @@
   if(!allDesa.length){ content.append(el('div','dlg', el('div','dt','Tidak ada desa AA'), el('div','dd','Tidak ada desa AA dari kabupaten terpilih.'))); return; }
   const progATS=el('div','prog'); progATS.innerHTML=`<div class="ptitle">Ambil Individu ATS — ${allDesa.length} desa (wil union)</div><div class="pbar"><div class="pfill"></div></div><div class="pstat">0 / ${allDesa.length} — 0 individu</div><div class="pnow"></div>`; content.append(progATS);
   const pfATS=progATS.querySelector('.pfill'), psATS=progATS.querySelector('.pstat'), pnATS=progATS.querySelector('.pnow');
-  const allRows=[]; const seen=new Set(); let doneATS=0;
+  const passJenjang=(r,f)=>{
+    if(!f) return true;
+    const hay=(r.tingkat||'')+' '+(r.nama_sekolah||'');
+    const isSMAK=/SMAK/i.test(hay);
+    const isSMA=/SMA(?!K)/i.test(hay);
+    const isSMK=/SMK/i.test(hay);
+    const isSLB=/SLB/i.test(hay);
+    if(f.has('smak') && isSMAK) return true;
+    if(f.has('smk') && isSMK) return true;
+    if(f.has('slb') && isSLB) return true;
+    if(f.has('sma') && isSMA && !isSMAK) return true;
+    return false;
+  };
+  const allRows=[]; const seen=new Set(); let doneATS=0; let filteredOut=0;
   await pool(allDesa, async d=>{
     pnATS.textContent=d.kode+' '+d.nama+' ...';
-    try{ const rows=await fetchATSIndividu(d.kode,'wil'); let add=0; for(const r of rows){ const key=r.ats_id||`${d.kode}|${r.nisn}|${r.nama}`; if(r.ats_id&&seen.has(r.ats_id)) continue; seen.add(key); allRows.push({ kode_desa:d.kode, desa:d.nama, kecamatan:d._kec.nama, kec_kode:d._kec.kode, kabupaten:d._kab.nama, kab_kode:d._kab.kode, ...r }); add++; } log(` ${d.kode} ${d.nama}: ${rows.length} (+${add})`); }
-    catch(e){ log(` individu gagal ${d.kode} ${String(e).slice(0,80)}`); }
+    try{
+      const rows=await fetchATSIndividu(d.kode,'wil');
+      let add=0, skip=0;
+      for(const r of rows){
+        if(!passJenjang(r, filterJenjang)){ skip++; continue; }
+        const key=r.ats_id||`${d.kode}|${r.nisn}|${r.nama}`;
+        if(r.ats_id&&seen.has(r.ats_id)) continue;
+        seen.add(key); allRows.push({ kode_desa:d.kode, desa:d.nama, kecamatan:d._kec.nama, kec_kode:d._kec.kode, kabupaten:d._kab.nama, kab_kode:d._kab.kode, ...r }); add++;
+      }
+      filteredOut+=skip;
+      log(` ${d.kode} ${d.nama}: ${rows.length} raw, +${add} keep, -${skip} filter [${fjLabel}]`);
+    }catch(e){ log(` individu gagal ${d.kode} ${String(e).slice(0,80)}`); }
     doneATS++; pfATS.style.width=Math.round(doneATS/allDesa.length*100)+'%'; psATS.textContent=`${doneATS} / ${allDesa.length} — ${allRows.length} individu`;
   }, CONCURRENCY);
+  if(filterJenjang) log(`Filter jenjang ${fjLabel}: ${filteredOut} baris terfilter, sisa ${allRows.length}`);
   log(`=== SELESAI ${allRows.length} individu (dedup ${seen.size}) dari ${allDesa.length} desa ===`); setStatus(`selesai ${allRows.length}`);
   progATS.querySelector('.ptitle').textContent=`Selesai — ${allRows.length} individu`;
   console.table(allRows.slice(0,30));
   const header=['kode_desa','desa','kecamatan','kec_kode','kabupaten','kab_kode','no','nisn','nama','jk','usia','ayah','ibu','alamat','npsn','nama_sekolah','tingkat','status_ats','verifikasi_status','alasan_verifikasi','alasan_lainnya','keterangan','ats_id'];
   const esc=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
   const lines=[header.map(esc).join(',')]; for(const r of allRows) lines.push(header.map(k=>esc(r[k])).join(','));
-  const base=`ats_${PROV}_${picked.map(k=>k.kode).join('-').slice(0,40)}_${new Date().toISOString().slice(0,10)}_individu`;
+  const base=`ats_${PROV}_${picked.map(k=>k.kode).join('-').slice(0,40)}_${new Date().toISOString().slice(0,10)}_individu_${fjLabel}`;
   const csv=new Blob(['\ufeff'+lines.join('\r\n')],{type:'text/csv;charset=utf-8'}), json=new Blob([JSON.stringify(allRows,null,2)],{type:'application/json;charset=utf-8'});
   const dl=(b,n)=>{ const a=document.createElement('a'); a.href=URL.createObjectURL(b); a.download=n; a.click(); log('download '+n); };
   window._ats={ rows:allRows, kabs:kabWithKec, desas:allDesa, downloadCsv:()=>dl(csv,base+'.csv'), downloadJson:()=>dl(json,base+'.json') };
