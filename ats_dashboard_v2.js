@@ -4,7 +4,7 @@
 // Cache hibrida TTL 7 hari: in-memory + localStorage (wilayah) + IndexedDB (list siswa, detail-anak).
 (() => {
   if (document.getElementById('__atsdash')) { document.getElementById('__atsdash').remove(); }
-  const CONFIG = { KODE_WILAYAH: '240000', PER_PAGE: 100, DELAY: 300, MAX_AUTO_PAGES: 20, DET_CONC_MAX: 3, DET_DELAY: 400, DET_CAP: 3000, TTL_MS: 7 * 24 * 3600 * 1000, LIST_MAX: 1000, DET_MAX: 20000 };
+  const CONFIG = { KODE_WILAYAH: '240000', PER_PAGE: 100, DELAY: 300, MAX_AUTO_PAGES: 20, DET_CONC_MAX: 1, DET_DELAY: 900, DET_JITTER: 300, DET_RPM: 55, DET_CAP: 3000, TTL_MS: 7 * 24 * 3600 * 1000, LIST_MAX: 1000, DET_MAX: 20000 };
   const getBearer = () => {
     const deepFind = (o, d = 0) => {
       if (!o || d > 4) return '';
@@ -163,23 +163,47 @@
     $('#__tb').querySelectorAll('button').forEach(b => b.onclick = () => showDetail(b.dataset.id));
   };
   let detConc = CONFIG.DET_CONC_MAX, okStreak = 0, wafUntil = 0, wafHits = 0;
-  const isWafBody = (txt, ct) => /text\/html/i.test(ct || '') || /Akses Ditolak|SUPPORT ID|sl-waf-script|_sl_waf|safeline/i.test((txt || '').slice(0, 3000));
-  const waitWaf = async () => { while (Date.now() < wafUntil) { const s = Math.ceil((wafUntil - Date.now()) / 1000); setSt(`diblok WAF — jeda ${s}s (data aman, lanjut otomatis)`); await sleep(Math.min(1000, wafUntil - Date.now())); } };
+  // --- deteksi WAF + pacing ---
+  const isWafCT = (ct) => /text\/html/i.test(ct || '');
+  const isWafBody = (txt) => /Akses Ditolak|SUPPORT ID|sl-waf-script|_sl_waf|safeline/i.test((txt || '').slice(0, 2000));
+  const waitWaf = async () => { while (Date.now() < wafUntil) { const s = Math.ceil((wafUntil - Date.now()) / 1000); setSt(`diblok WAF — jeda ${s}s (lanjut otomatis)`); await sleep(Math.min(1000, wafUntil - Date.now())); } };
+  const noteWaf = (msg) => {
+    wafHits++; okStreak = 0; detConc = Math.max(1, Math.floor(detConc / 2));
+    const cool = Math.min(20000 * Math.pow(1.6, Math.min(wafHits, 4)), 180000);
+    wafUntil = Math.max(wafUntil, Date.now() + cool);
+    return new Error(msg || 'WAF: permintaan diblok sementara');
+  };
+  const RATE = { max: CONFIG.DET_RPM, win: 60000, stamps: [] };
+  const gate = async () => {
+    for (;;) {
+      const now = Date.now();
+      RATE.stamps = RATE.stamps.filter(t => now - t < RATE.win);
+      if (RATE.stamps.length < RATE.max) { RATE.stamps.push(now); return; }
+      const wait = Math.max(300, RATE.win - (now - RATE.stamps[0]) + 100);
+      setSt(`kuota ${RATE.stamps.length}/${RATE.max} per menit — jeda ${Math.ceil(wait / 1000)}s`);
+      await sleep(wait);
+    }
+  };
   async function fetchJSON(url, retries = 6) {
     let lastErr = null;
     for (let a = 0; ; a++) {
       await waitWaf();
       const res = await fetch(url, { credentials: 'include', headers: { Accept: 'application/json', Authorization: 'Bearer ' + TOKEN } });
-      const txt = await res.text();
       const ct = res.headers.get('content-type') || '';
-      if (res.status === 401) throw new Error('401: login ulang');
-      if (res.status === 429 || res.status === 468 || res.status >= 500 || isWafBody(txt, ct)) {
-        wafHits++;
-        detConc = Math.max(1, Math.floor(detConc / 2)); okStreak = 0;
-        const ra = parseFloat(res.headers.get('retry-after') || res.headers.get('x-ratelimit-reset') || '0');
-        const cool = Math.min((isNaN(ra) || !ra ? 15 : ra) * (isWafBody(txt, ct) ? 1000 : 1000) * Math.pow(1.6, Math.min(wafHits, 4)), 180000);
-        wafUntil = Math.max(wafUntil, Date.now() + cool);
-        lastErr = new Error(isWafBody(txt, ct) ? 'WAF: permintaan detail diblok sementara' : 'HTTP ' + res.status);
+      if (res.status === 401) { try { await res.body?.cancel(); } catch {} throw new Error('401: login ulang'); }
+      // deteksi dini: HTML dari API = WAF, jangan baca body penuh
+      if (isWafCT(ct) || res.status === 429 || res.status === 468 || res.status >= 500) {
+        try { await res.body?.cancel(); } catch {}
+        const ra = parseFloat(res.headers.get('retry-after') || '');
+        lastErr = noteWaf(isWafCT(ct) ? 'WAF: permintaan detail diblok sementara' : 'HTTP ' + res.status);
+        if (!isNaN(ra) && ra > 0) wafUntil = Math.max(wafUntil, Date.now() + Math.min(ra, 180) * 1000);
+        await waitWaf();
+        if (a >= retries) throw lastErr;
+        continue;
+      }
+      const txt = await res.text();
+      if (isWafBody(txt)) {
+        lastErr = noteWaf();
         await waitWaf();
         if (a >= retries) throw lastErr;
         continue;
@@ -187,18 +211,17 @@
       if (!res.ok) throw new Error('HTTP ' + res.status);
       if (!txt.trim()) {
         lastErr = new Error('respon kosong');
-        await sleep(Math.min(1000 + Math.random() * 1000 + a * 800, 10000));
+        await sleep(Math.min(1200 + Math.random() * 1200 + a * 800, 12000));
         if (a >= retries) throw lastErr;
         continue;
       }
       try {
         const j = JSON.parse(txt);
-        okStreak++; wafHits = 0;
-        if (okStreak >= 25 && detConc < CONFIG.DET_CONC_MAX) { detConc++; okStreak = 0; }
+        okStreak++; if (okStreak >= 40) { wafHits = 0; }
         return j;
       } catch (e) {
         lastErr = new Error('JSON rusak');
-        await sleep(Math.min(1000 + Math.random() * 1000 + a * 800, 10000));
+        await sleep(Math.min(1200 + Math.random() * 1200 + a * 800, 12000));
         if (a >= retries) throw lastErr;
       }
     }
@@ -207,8 +230,11 @@
     const need = state.rows.filter(x => !x._det).slice(0, CONFIG.DET_CAP);
     if (!need.length) { render(); return; }
     if (state.loading) return; state.loading = true; state.stop = false;
-    let i = 0, done = 0, fail = 0, wafStop = false;
+    let i = 0, done = 0, fail = 0, errRows = 0, wafStop = false;
     setSt(`detail 0/${need.length}...`);
+    // probe 1 request dulu: kalau WAF aktif, tunggu tanpa menghabiskan retry
+    if (Date.now() < wafUntil) await waitWaf();
+    if (wafUntil && Date.now() < wafUntil) { state.loading = false; setSt('WAF masih aktif, coba lagi beberapa menit.'); return; }
     const flatOf = (j) => { const v = (j || {}).data || {}, s = (v.pendidikan || {}).sekolah_terakhir || {}, idn = v.identitas || {}, w = v.wilayah || {}; return { bentuk: (s.bentuk || '').toLowerCase(), jenjang: (s.jenjang || '').toLowerCase(), nama: s.nama || '', tingkat: s.tingkat || '', ibu: idn.nama_ibu || '', ayah: idn.nama_ayah || '', alamat: idn.alamat_jalan || '', rt: idn.rt ?? '', rw: idn.rw ?? '', lintang: idn.lintang ?? '', bujur: idn.bujur ?? '', d_desa: w.desa || '', d_kec: w.kecamatan || '', d_kab: w.kabupaten || '', d_prov: w.provinsi || '' }; };
     const worker = async () => {
       while (i < need.length && !state.stop && !wafStop) {
@@ -216,25 +242,26 @@
         const hit = await idbRec('detail', x.ats_id);
         if (hit) { x._det = flatOf(hit.v); noteHit(hit.t); }
         else {
+          await gate();
           try {
             const j = await fetchJSON(`/ats-v2/api/v1/verifikasi/detail-anak/${encodeURIComponent(x.ats_id)}`);
             x._det = flatOf(j); state.cache.miss++; fail = 0;
             await idbSetCap('detail', x.ats_id, j, CONFIG.DET_MAX, 'atsv2:detidx');
           } catch (e) {
             const m = String(e && e.message || e);
-            fail++;   // jangan set _det: biar bisa dicoba lagi nanti
-            if (/WAF/i.test(m) && fail >= 5) { wafStop = true; state.stop = true; }
+            fail++; errRows++;   // jangan set _det: biar bisa dicoba lagi nanti
+            if (/WAF/i.test(m) && fail >= 3) { wafStop = true; state.stop = true; }
           }
-          await sleep(CONFIG.DET_DELAY);
+          await sleep(CONFIG.DET_DELAY + Math.random() * CONFIG.DET_JITTER);
         }
         done++;
-        if (done % 10 === 0 || done === need.length) { setSt(`detail ${done}/${need.length} (gagal ${state.rows.filter(r => !r._det).length})...`); render(); }
+        if (done % 10 === 0 || done === need.length) { setSt(`detail ${done}/${need.length}${errRows ? ', gagal ' + errRows : ''}...`); render(); }
       }
     };
     await Promise.all(Array(Math.min(detConc, need.length)).fill(0).map(worker));
     state.loading = false;
     const left = state.rows.filter(r => !r._det).length;
-    setSt(wafStop ? `detail dihentikan WAF: ${done}/${need.length}, ${left} belum terisi. Tunggu beberapa menit lalu klik Detail++.` : `detail selesai ${done}/${need.length}${left ? ', ' + left + ' gagal (bisa ulang)' : ''}${need.length >= CONFIG.DET_CAP ? ' (cap ' + CONFIG.DET_CAP + ')' : ''}.`);
+    setSt(wafStop ? `detail dihentikan WAF: ${done}/${need.length}, ${left} belum terisi. Tunggu beberapa menit lalu klik Detail++.` : `detail selesai ${done}/${need.length}${errRows ? ', gagal ' + errRows + ' (bisa ulang)' : ''}${need.length >= CONFIG.DET_CAP ? ' (cap ' + CONFIG.DET_CAP + ')' : ''}.`);
     render();
   }
   async function loadPages(n) {
