@@ -10,3 +10,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Data pribadi (jangan di-commit)
+api-capture*.json
+
