@@ -1,0 +1,6314 @@
+[
+  {
+    "nama": "SEKOLAH LUAR BIASA (SLB) NEGERI WERI",
+    "npsn": "50301935",
+    "kecamatan": "Larantuka",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SEKOLAH MENEGAH KEJURUAN NEGERI 1 LEMBOR",
+    "npsn": "70055686",
+    "kecamatan": "Lembor",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS (SMA) ICEYA NDAHA",
+    "npsn": "74986808",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS (SMA) NEGERI 1 AMARASI",
+    "npsn": "50300269",
+    "kecamatan": "Amarasi",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS (SMA) NEGERI 2 KODI UTARA",
+    "npsn": "75096361",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS (SMA) PLUS KRISTEN REHOBOT OEBELO",
+    "npsn": "70007712",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS (SMA) SWASTA KATOLIK WARTA BAKTI",
+    "npsn": "50301009",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS (SMA) TANGAN PENGHARAPAN",
+    "npsn": "74591526",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS IL  KAPTEN",
+    "npsn": "70055317",
+    "kecamatan": "Tasifeto Timur",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS KRISTEN KASIH YOBEL KUPANG",
+    "npsn": "70056259",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS NEGERI 1 AMABI OEFETO TIMUR",
+    "npsn": "50309624",
+    "kecamatan": "Amabi Oefeto Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS NEGERI 1 HAWU MEHARA",
+    "npsn": "69733991",
+    "kecamatan": "Hawu Mehara",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS NEGERI 1 LARANTUKA",
+    "npsn": "50301883",
+    "kecamatan": "Larantuka",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS NEGERI 1 RAIJUA",
+    "npsn": "69856893",
+    "kecamatan": "Raijua",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS NEGERI 1 TITEHENA",
+    "npsn": "50306157",
+    "kecamatan": "Titehena",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS NEGERI 1 WAIKABUBAK",
+    "npsn": "50304069",
+    "kecamatan": "Kota Waikabubak",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS NEGERI BANAT",
+    "npsn": "50309191",
+    "kecamatan": "Kolbano",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS NEGERI KIE",
+    "npsn": "50307297",
+    "kecamatan": "Kie",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS SWASTA  BUKAMBERO",
+    "npsn": "70055316",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS SWASTA PELITA HATI",
+    "npsn": "70059143",
+    "kecamatan": "Taebenu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH ATAS SWASTA ST. BERNADETH PERBATASAN",
+    "npsn": "73395648",
+    "kecamatan": "Lamakmen",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "Sekolah Menengah Atas Unggul Garuda Timor Tengah Selatan",
+    "npsn": "70060035",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN  KATOLIK HENDRICUS LEVEN LARANTUKA",
+    "npsn": "70004318",
+    "kecamatan": "Larantuka",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) ADIPUTRA TIMOR MANDIRI",
+    "npsn": "70046451",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) ANCOP BERASRAMA LIKOTUDEN",
+    "npsn": "69965787",
+    "kecamatan": "Demon Pagong",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) ICEYA NDAHA",
+    "npsn": "69928409",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) NEGERI 1 MAUMERE",
+    "npsn": "50302299",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) NEGERI 1 POCO RANAKA",
+    "npsn": "50310680",
+    "kecamatan": "Lamba Leda Selatan (Poco Ranaka)",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) NEGERI 1 WEWEWA BARAT",
+    "npsn": "69727076",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) NEGERI KOLBANO",
+    "npsn": "50307309",
+    "kecamatan": "Kolbano",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) NEGERI KUALIN",
+    "npsn": "50309041",
+    "kecamatan": "Kualin",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) NEGERI OEHANI",
+    "npsn": "69847634",
+    "kecamatan": "Kualin",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) NEGERI OEOLO",
+    "npsn": "50307418",
+    "kecamatan": "Musi",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) NEGERI WITIHAMA",
+    "npsn": "69886262",
+    "kecamatan": "Witihama",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) RESTORASI ST. FRANSISKUS ASISI WONDA",
+    "npsn": "70010483",
+    "kecamatan": "Ndori",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) SANTO AGUSTINUS ENDE",
+    "npsn": "70040310",
+    "kecamatan": "Ende Timur",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) ST. YOSEFA LABUAN BAJO",
+    "npsn": "70011829",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) SURYA KASIH",
+    "npsn": "70035286",
+    "kecamatan": "Insana Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) SWAKARSA RUTENG",
+    "npsn": "50303346",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN (SMK) SWASTA PANCASILA TAMBOLAKA",
+    "npsn": "50304080",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN BAKTI LUHUR",
+    "npsn": "69830517",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN EKFIN",
+    "npsn": "70056493",
+    "kecamatan": "Amanuban Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN KUNCI ILMU ENDE",
+    "npsn": "70012537",
+    "kecamatan": "Ende Timur",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 1 CIBAL",
+    "npsn": "70060320",
+    "kecamatan": "Cibal",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 1 KOTA TAMBOLAKA",
+    "npsn": "69896981",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 1 KUPANG BARAT",
+    "npsn": "69727541",
+    "kecamatan": "Kupang Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 1 LARANTUKA",
+    "npsn": "50301894",
+    "kecamatan": "Ile Mandiri",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 1 MAMBORO",
+    "npsn": "50308344",
+    "kecamatan": "Mamboro",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 1 TAKARI",
+    "npsn": "60728867",
+    "kecamatan": "Takari",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 2 LOLI",
+    "npsn": "69888491",
+    "kecamatan": "Loli",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 2 SATARMESE",
+    "npsn": "70061193",
+    "kecamatan": "Satarmese",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 2 SOE",
+    "npsn": "50300590",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 3 ATAMBUA",
+    "npsn": "69990571",
+    "kecamatan": "Atambua Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 6 ENDE",
+    "npsn": "69768276",
+    "kecamatan": "Detukeli",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI 9 MAHU",
+    "npsn": "70055563",
+    "kecamatan": "Mahu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI BAJAWA UTARA",
+    "npsn": "50306213",
+    "kecamatan": "Bajawa Utara",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI BATUPUTIH",
+    "npsn": "69947414",
+    "kecamatan": "BatuPutih",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI EBAN",
+    "npsn": "50307420",
+    "kecamatan": "Miomafo Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI HABIBOLA",
+    "npsn": "74472959",
+    "kecamatan": "Doreng",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI I WULANGGITANG",
+    "npsn": "50306155",
+    "kecamatan": "Wulang Gitang",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI MOLLO TENGAH",
+    "npsn": "70011429",
+    "kecamatan": "Mollo Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI OELET",
+    "npsn": "50309205",
+    "kecamatan": "Amanuban Timur",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI POLEN",
+    "npsn": "50307310",
+    "kecamatan": "Polen",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI RESTORASI MANUFUI",
+    "npsn": "70012355",
+    "kecamatan": "Santian",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI SOLOR TIMUR",
+    "npsn": "50306153",
+    "kecamatan": "Solor Timur",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI SUNU",
+    "npsn": "70031328",
+    "kecamatan": "Amanatun Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN NEGERI TUNUA",
+    "npsn": "70014783",
+    "kecamatan": "Mollo Utara",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN SWASTA ADVENT NUSRA",
+    "npsn": "69894993",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN SWASTA SANJAYA BAJAWA",
+    "npsn": "50302966",
+    "kecamatan": "Bajawa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN SWASTA SANTO VINCENTIUS NDONA",
+    "npsn": "69903631",
+    "kecamatan": "Ndona",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN SWASTA SANTU ANTONIUS RUTENG",
+    "npsn": "50308525",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SEKOLAH MENENGAH KEJURUAN SWASTA ST. YOSEF MBAY",
+    "npsn": "69969645",
+    "kecamatan": "Aesesa",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "Sekolah Menengah Kejuruan Swasta Swastisari Kupang",
+    "npsn": "50304969",
+    "kecamatan": "Kota Raja",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAHKEJURUANNEGERI RESTORASI OELBANU",
+    "npsn": "70012982",
+    "kecamatan": "Amfoang Selatan",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SEKOLAH MENENGAHKEJURUANSWASTA BUDILUHURMAUMERE",
+    "npsn": "50302298",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SLB A KARYA MURNI RUTENG",
+    "npsn": "50303441",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SLB ADIMISTER DULIONAN",
+    "npsn": "70011567",
+    "kecamatan": "Ile Mandiri",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SLB ASUHAN KASIH",
+    "npsn": "50305124",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SLB BHAKTI LUHUR",
+    "npsn": "69769430",
+    "kecamatan": "Atambua Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SLB BHAKTI LUHUR BAUMATA",
+    "npsn": "70011617",
+    "kecamatan": "Taebenu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SLB BIMBINGAN KASIH",
+    "npsn": "70043380",
+    "kecamatan": "Paga",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SLB C NEGERI WAIKABUBAK",
+    "npsn": "50308048",
+    "kecamatan": "Loli",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SLB FLORESSTA MAUMERE",
+    "npsn": "60702909",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SLB KARYA ILAHI MAUMERE",
+    "npsn": "70011653",
+    "kecamatan": "Alok Timur",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SLB N BERU",
+    "npsn": "50302144",
+    "kecamatan": "Alok Timur",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SLB N PEMBINA KUPANG",
+    "npsn": "50304950",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SLB N WAIKABUBAK",
+    "npsn": "50304121",
+    "kecamatan": "Loli",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SLB NEGERI ALOR",
+    "npsn": "50305790",
+    "kecamatan": "Alor Tengah Utara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SLB NEGERI AM ROIT",
+    "npsn": "70011697",
+    "kecamatan": "Amarasi Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SLB NEGERI AUTIS",
+    "npsn": "70048132",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SLB NEGERI BAJAWA",
+    "npsn": "69862420",
+    "kecamatan": "Bajawa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SLB NEGERI BENPASI",
+    "npsn": "50301154",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SLB NEGERI BORONG",
+    "npsn": "50309365",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SLB NEGERI ENDE",
+    "npsn": "50305542",
+    "kecamatan": "Ende Selatan",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SLB NEGERI KASIH SAYANG SOA",
+    "npsn": "70036020",
+    "kecamatan": "Soa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SLB NEGERI KOMODO",
+    "npsn": "69946742",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SLB NEGERI KOTA KUPANG",
+    "npsn": "50305066",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SLB NEGERI KOTA RADJA KUPANG",
+    "npsn": "69991325",
+    "kecamatan": "Kota Raja",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SLB NEGERI LAKAMOLA",
+    "npsn": "70036755",
+    "kecamatan": "Rote Timur",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SLB NEGERI LEWOLEBA",
+    "npsn": "50306164",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SLB Negeri Loofoun Bone",
+    "npsn": "70032115",
+    "kecamatan": "Weliman",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SLB Negeri Loura",
+    "npsn": "69988048",
+    "kecamatan": "Loura",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SLB NEGERI MANEKAT NIKI-NIKI",
+    "npsn": "69947565",
+    "kecamatan": "Amanuban Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SLB NEGERI NITSAE",
+    "npsn": "70027341",
+    "kecamatan": "Bikomi Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SLB NEGERI NUSA BUNGTILU",
+    "npsn": "70007125",
+    "kecamatan": "Semau",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SLB NEGERI OELMASI",
+    "npsn": "50306447",
+    "kecamatan": "Fatuleu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SLB NEGERI PANTAR",
+    "npsn": "69939441",
+    "kecamatan": "Pantar Tengah",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SLB NEGERI RAI NATIE",
+    "npsn": "70036751",
+    "kecamatan": "Sabu Tengah",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SLB Negeri Tenda Ruteng",
+    "npsn": "50303397",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SLB NEGERI TENUBOT",
+    "npsn": "50301377",
+    "kecamatan": "Kota Atambua",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SLB NEGERI TUNA GRAHITA (C) ALOR",
+    "npsn": "70011565",
+    "kecamatan": "Alor Tengah Utara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SLB NEGERI TUNA GRAHITA (C) ENDE",
+    "npsn": "70011695",
+    "kecamatan": "Ende Tengah",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SLB NEGERI TUNA GRAHITA (C) NUBATUKAN",
+    "npsn": "70011696",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SLB Negeri Waibakul",
+    "npsn": "50309571",
+    "kecamatan": "Katiku Tana Selatan",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SLB PEDULI KASIH",
+    "npsn": "70050820",
+    "kecamatan": "Naga Wutung",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SLB ST DAMIAN CANCAR",
+    "npsn": "70014823",
+    "kecamatan": "Ruteng",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SLB ST. ELISABETH PUPUNG",
+    "npsn": "70015996",
+    "kecamatan": "Rana Mese",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SLB-B KARYA MURNI RUTENG",
+    "npsn": "50307944",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SLB/C BHAKTY LUHUR",
+    "npsn": "50305291",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SLBN KANATANG",
+    "npsn": "50303911",
+    "kecamatan": "Kanatang",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SLBN LOBALAIN",
+    "npsn": "50305343",
+    "kecamatan": "Lobalain",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SLBN MALARUMA - MBAY",
+    "npsn": "69774954",
+    "kecamatan": "Aesesa",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SLBN NUNUMEU",
+    "npsn": "50300449",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA  KATOLIK ST. TERESIA DANGA",
+    "npsn": "69853544",
+    "kecamatan": "Aesesa",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMA  SWASTA ANUGERAH KASIH",
+    "npsn": "69864704",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMA 17 Agustus Lorobauna",
+    "npsn": "69899913",
+    "kecamatan": "Wewiku",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA 17 AGUSTUS RABASA BIRIS",
+    "npsn": "69906816",
+    "kecamatan": "Wewiku",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA ADHYAKSA ENDE",
+    "npsn": "50302627",
+    "kecamatan": "Ende Tengah",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA ALSIORA ENDE",
+    "npsn": "50305713",
+    "kecamatan": "Ende Timur",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA ALVAREZ PAGA",
+    "npsn": "50302308",
+    "kecamatan": "Paga",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMA Citra Bakti",
+    "npsn": "70005569",
+    "kecamatan": "Golewa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMA DHARMA BAKTI",
+    "npsn": "50305403",
+    "kecamatan": "Maurole",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA DIAN HARAPAN KUPANG",
+    "npsn": "69969313",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA DUTA SUMBA",
+    "npsn": "74932548",
+    "kecamatan": "Tana Righu",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMA FAJAR TIMUR KOBALIMA",
+    "npsn": "69888653",
+    "kecamatan": "Kobalima",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA FIDES QUAERENS INTELLECTUM",
+    "npsn": "50307412",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMA GENERASI PENERUS EDE",
+    "npsn": "70031438",
+    "kecamatan": "Wewewa Selatan",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA ISLAM MUTHMAINNAH",
+    "npsn": "50302625",
+    "kecamatan": "Ende Selatan",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA KAREKA NDUKU",
+    "npsn": "70039945",
+    "kecamatan": "Tana Righu",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMA KARITAS",
+    "npsn": "50305405",
+    "kecamatan": "Lio Timur",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA KARYA NANGAPANDA",
+    "npsn": "50302624",
+    "kecamatan": "Nangapanda",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA KATHOLIK SANCTISSIMA TRINITAS",
+    "npsn": "69756578",
+    "kecamatan": "Kuwus Barat",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA KATOLIK ANDA LURI",
+    "npsn": "50303811",
+    "kecamatan": "Kota Waingapu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA KATOLIK BALERIWU",
+    "npsn": "50302950",
+    "kecamatan": "Aesesa",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMA Katolik Frateran Ndao",
+    "npsn": "50302623",
+    "kecamatan": "Ende Utara",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA KATOLIK GABRIEL WANIBESAK",
+    "npsn": "69981153",
+    "kecamatan": "Wewiku",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA KATOLIK GIOVANNI KUPANG",
+    "npsn": "50304948",
+    "kecamatan": "Kota Lama",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA KATOLIK HATI KUDUS YESUS WEE KOMBAKA",
+    "npsn": "70038404",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA KATOLIK SANTA  CLARA WAIMARAMA",
+    "npsn": "70038367",
+    "kecamatan": "Kodi Bangedo",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA KATOLIK SINT JOHN WANOKAZA",
+    "npsn": "70010100",
+    "kecamatan": "Tana Righu",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMA KATOLIK ST. AGUSTINUS TANA MALLI",
+    "npsn": "78852977",
+    "kecamatan": "Lamboya",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMA KATOLIK ST. GERARDUS MAYELLA",
+    "npsn": "69968986",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA KATOLIK ST. JOSEF FREINADEMETZ",
+    "npsn": "70025364",
+    "kecamatan": "Loura",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA Katolik St. Maria Homba Karipit",
+    "npsn": "69974232",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA KATOLIK ST. PETRUS",
+    "npsn": "50305398",
+    "kecamatan": "Ende Timur",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA KATOLIK ST. YOSEPH KALABAHI",
+    "npsn": "50301673",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA KATOLIK STELLA MARIS MARAPOKOT",
+    "npsn": "69727247",
+    "kecamatan": "Aesesa",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMA KATOLIK SWASTA St. FRANSISKUS XAVERIUS HARNENO",
+    "npsn": "70043568",
+    "kecamatan": "Biboki Anleu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMA KATOLIK SYURADIKARA",
+    "npsn": "50305401",
+    "kecamatan": "Ende Tengah",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA KATOLIK TARUNA VIDYA",
+    "npsn": "50305402",
+    "kecamatan": "Ende Tengah",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA KI HAJAR DEWANTORO",
+    "npsn": "50304936",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA KRISTEN 3 KALABAHI MEBUNG",
+    "npsn": "69898964",
+    "kecamatan": "Alor Tengah Utara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA KRISTEN AIR HIDUP",
+    "npsn": "69989458",
+    "kecamatan": "Wewewa Tengah",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA KRISTEN ALFA OMEGA",
+    "npsn": "70045604",
+    "kecamatan": "Wewewa Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA KRISTEN ARASTAMAR NDAO NUSE",
+    "npsn": "69973672",
+    "kecamatan": "Ndao Nuse",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMA Kristen Citra Bangsa Mandiri",
+    "npsn": "69896535",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA KRISTEN EDE",
+    "npsn": "70039970",
+    "kecamatan": "Wewewa Selatan",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA KRISTEN INDONESIA SEJAHTERA",
+    "npsn": "69969008",
+    "kecamatan": "Lobalain",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMA KRISTEN KESETNANA",
+    "npsn": "69934104",
+    "kecamatan": "Mollo Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA Kristen Maktihan",
+    "npsn": "69976812",
+    "kecamatan": "Malaka Barat",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA KRISTEN PANDHEGA JAYA",
+    "npsn": "69883571",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA KRISTEN PAYETI",
+    "npsn": "50303810",
+    "kecamatan": "Kambera",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA KRISTEN PETRA",
+    "npsn": "69969250",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMA KRISTEN SILOAM BAA",
+    "npsn": "50304603",
+    "kecamatan": "Lobalain",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMA KRISTEN TONGKAT HARUN",
+    "npsn": "70009636",
+    "kecamatan": "Lobalain",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMA Kristen Tunas Gloria",
+    "npsn": "69896554",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA KRISTEN WAIBAKUL",
+    "npsn": "50304070",
+    "kecamatan": "Katiku Tana",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SMA LENTERA HARAPAN LABUAN BAJO",
+    "npsn": "70006753",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA MUHAMMADIYAH ENDE",
+    "npsn": "50302622",
+    "kecamatan": "Ende Utara",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA MUHAMMADIYAH WAINGAPU",
+    "npsn": "50303809",
+    "kecamatan": "Kota Waingapu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA Negeri  1 BALAURING",
+    "npsn": "69856246",
+    "kecamatan": "Omesuri",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMA Negeri  1 ILE APE",
+    "npsn": "69856247",
+    "kecamatan": "Ile Ape",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMA NEGERI 02 KABOLA",
+    "npsn": "69946205",
+    "kecamatan": "Kabola",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI 1  LEWOLEMA",
+    "npsn": "69899844",
+    "kecamatan": "Lewolema",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 ADONARA",
+    "npsn": "69901175",
+    "kecamatan": "Adonara",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 ADONARA BARAT",
+    "npsn": "50301882",
+    "kecamatan": "Adonara Barat",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 ADONARA TENGAH",
+    "npsn": "69900148",
+    "kecamatan": "Adonara Tengah",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 ADONARA TIMUR",
+    "npsn": "50301884",
+    "kecamatan": "Adonara Timur",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 ALOR BARAT DAYA",
+    "npsn": "50301676",
+    "kecamatan": "Alor Barat Daya",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI 1 AMABI OEFETO",
+    "npsn": "50309597",
+    "kecamatan": "Amabi Oefeto",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 AMARASI BARAT",
+    "npsn": "50300270",
+    "kecamatan": "Amarasi Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 AMARASI SELATAN",
+    "npsn": "50306570",
+    "kecamatan": "Amarasi Selatan",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 AMARASI TIMUR",
+    "npsn": "50300244",
+    "kecamatan": "Amarasi Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 AMFOANG TENGAH",
+    "npsn": "69822786",
+    "kecamatan": "Amfoang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 AMFOANG TIMUR",
+    "npsn": "60728884",
+    "kecamatan": "Amfoang Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 AMFOANG UTARA",
+    "npsn": "50300271",
+    "kecamatan": "Amfoang Utara",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 BOAWAE",
+    "npsn": "69849615",
+    "kecamatan": "Boawae",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMA NEGERI 1 BUYASURI",
+    "npsn": "69950302",
+    "kecamatan": "Buyasuri",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMA NEGERI 1 DEMON PAGONG",
+    "npsn": "69906703",
+    "kecamatan": "Demon Pagong",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 ENDE",
+    "npsn": "50302621",
+    "kecamatan": "Ende Tengah",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA NEGERI 1 HAHARU",
+    "npsn": "50305767",
+    "kecamatan": "Kanatang",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 ILE APE TIMUR",
+    "npsn": "69967658",
+    "kecamatan": "Ile Ape Timur",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMA NEGERI 1 JEREBUU",
+    "npsn": "70003936",
+    "kecamatan": "Jerebuu",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMA NEGERI 1 KAHAUNGU ETI",
+    "npsn": "69899648",
+    "kecamatan": "Kahaungu Eti",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA Negeri 1 Kodi Balaghar",
+    "npsn": "69947784",
+    "kecamatan": "Kodi Bangedo",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA NEGERI 1 KODI UTARA",
+    "npsn": "70013476",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA NEGERI 1 KOTA TAMBOLAKA",
+    "npsn": "69933619",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA NEGERI 1 KUPANG BARAT",
+    "npsn": "50300272",
+    "kecamatan": "Kupang Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 LABOYA BARAT",
+    "npsn": "70050806",
+    "kecamatan": "Lamboya",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMA NEGERI 1 LEBATUKAN",
+    "npsn": "69950296",
+    "kecamatan": "Lebatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMA NEGERI 1 LEWA",
+    "npsn": "50303792",
+    "kecamatan": "Lewa",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 LOLI",
+    "npsn": "70037183",
+    "kecamatan": "Loli",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMA NEGERI 1 NANGAPANDA",
+    "npsn": "50302619",
+    "kecamatan": "Nangapanda",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA NEGERI 1 NEKAMESE",
+    "npsn": "69763276",
+    "kecamatan": "Nekamese",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 NGADU NGALA",
+    "npsn": "70051099",
+    "kecamatan": "Ngadu Ngala",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 NGGAHA ORI ANGU",
+    "npsn": "69774697",
+    "kecamatan": "Nggaha Ori Angu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 PABERIWAI",
+    "npsn": "69774695",
+    "kecamatan": "Paberiwai",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 PACAR",
+    "npsn": "50310802",
+    "kecamatan": "Pacar",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA NEGERI 1 PAHUNGA LODU",
+    "npsn": "69899649",
+    "kecamatan": "Pahunga Lodu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 PANDAWAI",
+    "npsn": "50305768",
+    "kecamatan": "Pandawai",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 RESTORASI RIUNG",
+    "npsn": "70010895",
+    "kecamatan": "Riung",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMA NEGERI 1 RESTORASI UMBU RATU NGGAY",
+    "npsn": "70014575",
+    "kecamatan": "Umbu Ratu Nggay",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SMA NEGERI 1 RINDI",
+    "npsn": "69899650",
+    "kecamatan": "Rindi",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 RINDI UMALULU",
+    "npsn": "50303779",
+    "kecamatan": "Umalulu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 SEMAU",
+    "npsn": "50300268",
+    "kecamatan": "Semau",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 SEMAU SELATAN",
+    "npsn": "60728878",
+    "kecamatan": "Semau Selatan",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 SOLOR SELATAN",
+    "npsn": "69888754",
+    "kecamatan": "Solor Selatan",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 TAKARI",
+    "npsn": "50306572",
+    "kecamatan": "Takari",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 1 UMBU RATU NGGAY TENGAH",
+    "npsn": "70054385",
+    "kecamatan": "Umbu Ratu Nggay Tengah",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SMA NEGERI 1 WAIBAKUL",
+    "npsn": "50308342",
+    "kecamatan": "Katiku Tana Selatan",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SMA NEGERI 1 WAIGETE",
+    "npsn": "69753895",
+    "kecamatan": "Waigete",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMA NEGERI 1 WAINGAPU",
+    "npsn": "50303774",
+    "kecamatan": "Kota Waingapu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 WANUKAKA",
+    "npsn": "69888501",
+    "kecamatan": "Wanokaka",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMA NEGERI 1 WELULI",
+    "npsn": "50301415",
+    "kecamatan": "Lamakmen",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA NEGERI 1 WEWEWA BARAT",
+    "npsn": "70039972",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA NEGERI 1 WOLOWARU",
+    "npsn": "50302618",
+    "kecamatan": "Wolowaru",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA NEGERI 1 WULANDONI",
+    "npsn": "69913893",
+    "kecamatan": "Wulandoni",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMA NEGERI 1 WULANGGITANG",
+    "npsn": "69902674",
+    "kecamatan": "Wulang Gitang",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA NEGERI 1 WULLA WAIJELU",
+    "npsn": "69774696",
+    "kecamatan": "Wulla Waijelu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 10 BORONG",
+    "npsn": "69945318",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMA Negeri 12 Kupang",
+    "npsn": "69892401",
+    "kecamatan": "Alak",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 13 KUPANG",
+    "npsn": "70053756",
+    "kecamatan": "Alak",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 2 AESESA",
+    "npsn": "69972832",
+    "kecamatan": "Aesesa",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMA NEGERI 2 AMARASI BARAT",
+    "npsn": "50309612",
+    "kecamatan": "Amarasi Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 2 AMFOANG TIMUR",
+    "npsn": "69772544",
+    "kecamatan": "Amfoang Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 2 ATAMBUA",
+    "npsn": "50309317",
+    "kecamatan": "Tasifeto Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA NEGERI 2 BOAWAE",
+    "npsn": "69972984",
+    "kecamatan": "Boawae",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMA NEGERI 2 ENDE",
+    "npsn": "50302597",
+    "kecamatan": "Ende Utara",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA NEGERI 2 HAHARU",
+    "npsn": "69774698",
+    "kecamatan": "Haharu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 2 HAWU MEHARA",
+    "npsn": "70030869",
+    "kecamatan": "Hawu Mehara",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMA NEGERI 2 JEREBUU",
+    "npsn": "70004745",
+    "kecamatan": "Jerebuu",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMA NEGERI 2 KEO TENGAH",
+    "npsn": "69968987",
+    "kecamatan": "Keo Tengah",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMA NEGERI 2 KODI",
+    "npsn": "70045339",
+    "kecamatan": "Kodi",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA NEGERI 2 LEMBOR",
+    "npsn": "70013372",
+    "kecamatan": "Lembor",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA Negeri 2 Liae",
+    "npsn": "70005948",
+    "kecamatan": "Sabu Liae",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMA NEGERI 2 LOBALAIN",
+    "npsn": "69989225",
+    "kecamatan": "Lobalain",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMA NEGERI 2 NDOSO",
+    "npsn": "69842625",
+    "kecamatan": "Ndoso",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA NEGERI 2 NEKAMESE",
+    "npsn": "69981214",
+    "kecamatan": "Nekamese",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 2 PACAR",
+    "npsn": "70013217",
+    "kecamatan": "Pacar",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA NEGERI 2 RIUNG BARAT",
+    "npsn": "70038444",
+    "kecamatan": "Riung Barat",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMA NEGERI 2 ROTE BARAT DAYA",
+    "npsn": "70048523",
+    "kecamatan": "Rote Barat Daya",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMA Negeri 2 Ruteng Purang",
+    "npsn": "69932980",
+    "kecamatan": "Ruteng",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMA NEGERI 2 SABU BARAT",
+    "npsn": "70030897",
+    "kecamatan": "Sabu Barat",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMA NEGERI 2 SEMAU",
+    "npsn": "69756681",
+    "kecamatan": "Semau",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 2 SOA",
+    "npsn": "70028651",
+    "kecamatan": "Soa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMA NEGERI 2 SULAMU",
+    "npsn": "69939898",
+    "kecamatan": "Sulamu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 2 TAKARI",
+    "npsn": "50300020",
+    "kecamatan": "Takari",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 2 TASIFETO BARAT",
+    "npsn": "69832839",
+    "kecamatan": "Tasifeto Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA NEGERI 2 TASIFETO TIMUR",
+    "npsn": "69948439",
+    "kecamatan": "Tasifeto Timur",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA NEGERI 2 UMALULU",
+    "npsn": "70007752",
+    "kecamatan": "Umalulu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 2 WAINGAPU",
+    "npsn": "50303773",
+    "kecamatan": "Kota Waingapu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 2 WELAK",
+    "npsn": "70013187",
+    "kecamatan": "Welak",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA NEGERI 2 WEWEWA TIMUR",
+    "npsn": "69989831",
+    "kecamatan": "Wewewa Timur",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA NEGERI 3 AMABI OEFETO TIMUR",
+    "npsn": "70005736",
+    "kecamatan": "Amabi Oefeto Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 3 AMARASI SELATAN",
+    "npsn": "69938580",
+    "kecamatan": "Amarasi Selatan",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 3 AMARASI TIMUR",
+    "npsn": "69888778",
+    "kecamatan": "Amarasi Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 3 ATAMBUA",
+    "npsn": "69761909",
+    "kecamatan": "Kakuluk Mesak",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA Negeri 3 Cibal",
+    "npsn": "70002114",
+    "kecamatan": "Cibal",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMA NEGERI 3 FATULEU TENGAH",
+    "npsn": "69946284",
+    "kecamatan": "Fatuleu Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 3 KALABAHI",
+    "npsn": "69954539",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI 3 KEFAMENANU",
+    "npsn": "69849076",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMA NEGERI 3 KOMODO",
+    "npsn": "69842626",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA NEGERI 3 KUPANG TIMUR",
+    "npsn": "60728881",
+    "kecamatan": "Kupang Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 3 MACANG PACAR",
+    "npsn": "69971705",
+    "kecamatan": "Macang Pacar",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA NEGERI 3 NDOSO",
+    "npsn": "69968997",
+    "kecamatan": "Ndoso",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA NEGERI 3 TAKARI",
+    "npsn": "69947480",
+    "kecamatan": "Takari",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA NEGERI 3 WAINGAPU",
+    "npsn": "69726042",
+    "kecamatan": "Kota Waingapu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI 4 ATAMBUA",
+    "npsn": "69920505",
+    "kecamatan": "Atambua Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA NEGERI 4 KOMODO",
+    "npsn": "69842627",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMA NEGERI 4 TAKARI",
+    "npsn": "70011353",
+    "kecamatan": "Takari",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA Negeri 5 Lamba Leda",
+    "npsn": "69944240",
+    "kecamatan": "Lamba Leda Utara",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMA NEGERI ALEMBA",
+    "npsn": "69762586",
+    "kecamatan": "Lembur",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA Negeri Alkani",
+    "npsn": "69902385",
+    "kecamatan": "Wewiku",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA NEGERI ALOR KECIL",
+    "npsn": "69774846",
+    "kecamatan": "Alor Barat Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI BATETI",
+    "npsn": "69864708",
+    "kecamatan": "Malaka Barat",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA NEGERI BIKOMI UTARA",
+    "npsn": "69728424",
+    "kecamatan": "Bikomi Utara",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMA NEGERI BININO",
+    "npsn": "69843060",
+    "kecamatan": "Bikomi Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMA NEGERI DETUSOKO",
+    "npsn": "50305397",
+    "kecamatan": "Detusoko",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA NEGERI DINGKANAL",
+    "npsn": "70010974",
+    "kecamatan": "Alor Timur Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI FATUKOPA",
+    "npsn": "70006453",
+    "kecamatan": "Fatukopa",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI FAUTMOLO",
+    "npsn": "70014745",
+    "kecamatan": "Fautmolo",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI HALIOAN",
+    "npsn": "69919910",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA NEGERI HAREKAKAE",
+    "npsn": "50309319",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA NEGERI I RESTORASI WOLOMEZE",
+    "npsn": "70010961",
+    "kecamatan": "Riung Selatan (Wolomeze)",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMA NEGERI IO KUFEU",
+    "npsn": "69888990",
+    "kecamatan": "Io Kufeu",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA NEGERI KAKULUK MESAK",
+    "npsn": "69993057",
+    "kecamatan": "Kakuluk Mesak",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA NEGERI KALONDAMA",
+    "npsn": "69975241",
+    "kecamatan": "Pantar Barat Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI KANGAE",
+    "npsn": "69990872",
+    "kecamatan": "Kangae",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMA NEGERI KATALA HAMU LINGU",
+    "npsn": "70031959",
+    "kecamatan": "Katala Hamu Lingu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI KEBERBAKATAN OLAHRAGA FLOBAMORATA",
+    "npsn": "69946086",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA NEGERI KELUBAGOLIT",
+    "npsn": "69878677",
+    "kecamatan": "Kelubagolit",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA NEGERI KIUBAAT",
+    "npsn": "70006452",
+    "kecamatan": "Amanuban Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI KOLANA",
+    "npsn": "69948506",
+    "kecamatan": "Alor Timur",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI KOTOLIN",
+    "npsn": "69988075",
+    "kecamatan": "Kot`Olin",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA Negeri Laenmanen",
+    "npsn": "69902442",
+    "kecamatan": "Laenmanen",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA NEGERI LASIOLAT",
+    "npsn": "69981389",
+    "kecamatan": "Lasiolat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA NEGERI LEWA TIDAHU",
+    "npsn": "69900214",
+    "kecamatan": "Lewa Tidahu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI LIKWATANG",
+    "npsn": "69864623",
+    "kecamatan": "Alor Tengah Utara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI MAGEPANDA",
+    "npsn": "69864615",
+    "kecamatan": "Magependa",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMA NEGERI MAKIR",
+    "npsn": "69946432",
+    "kecamatan": "Lamakmen",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA NEGERI MATAWAI LA PAWU",
+    "npsn": "69962131",
+    "kecamatan": "Matawai La Pawu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI MATPUNU",
+    "npsn": "70013307",
+    "kecamatan": "Nunbena",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI MAUROLE",
+    "npsn": "50302620",
+    "kecamatan": "Maurole",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA NEGERI MIOMAFFO TENGAH",
+    "npsn": "69772588",
+    "kecamatan": "Miomafo Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMA NEGERI NDONDO",
+    "npsn": "70041385",
+    "kecamatan": "Kota Baru",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA NEGERI NIANAM",
+    "npsn": "69989137",
+    "kecamatan": "Kie",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI NOEBEBA",
+    "npsn": "70013634",
+    "kecamatan": "Noebeba",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI NOEMUTI TIMUR",
+    "npsn": "69896247",
+    "kecamatan": "Noemuti Timur",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMA NEGERI NUNBENA",
+    "npsn": "69847627",
+    "kecamatan": "Nunbena",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI NUNKOLO",
+    "npsn": "69981042",
+    "kecamatan": "Nunkolo",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI OEKOLO",
+    "npsn": "69894295",
+    "kecamatan": "Insana Utara",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMA NEGERI PANTOLA",
+    "npsn": "70006491",
+    "kecamatan": "Kolbano",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI PEMANA",
+    "npsn": "69799865",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMA NEGERI PERBATASAN LAMAKNEN SELATAN",
+    "npsn": "70032352",
+    "kecamatan": "Lamakmen Selatan",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA Negeri Pido",
+    "npsn": "69877329",
+    "kecamatan": "Alor Timur Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI PINU PAHAR",
+    "npsn": "70011428",
+    "kecamatan": "Pinu Pahar",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA NEGERI PLUS KOPI COLOL",
+    "npsn": "50308603",
+    "kecamatan": "Lamba Leda Timur (Poco Ranaka Timur)",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMA NEGERI PULAU ENDE",
+    "npsn": "69734401",
+    "kecamatan": "Pulau Ende",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA NEGERI RAIMANUK",
+    "npsn": "69979856",
+    "kecamatan": "Rai Manuk",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA NEGERI RESTORASI AIMOLI",
+    "npsn": "70041021",
+    "kecamatan": "Alor Barat Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI RESTORASI DORENG",
+    "npsn": "70011899",
+    "kecamatan": "Doreng",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMA NEGERI RESTORASI FATUAT",
+    "npsn": "70032235",
+    "kecamatan": "Kot`Olin",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI RESTORASI MAINANG",
+    "npsn": "70033862",
+    "kecamatan": "Alor Tengah Utara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI RESTORASI PADANG ALANG",
+    "npsn": "70026924",
+    "kecamatan": "Alor Selatan",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI RESTORASI PADANGSUL",
+    "npsn": "70053816",
+    "kecamatan": "Pantar Timur",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI RESTORASI PILI",
+    "npsn": "70033583",
+    "kecamatan": "Kie",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI SABUN",
+    "npsn": "70006451",
+    "kecamatan": "Boking",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI SAENAM",
+    "npsn": "69987799",
+    "kecamatan": "Kuanfatu",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI SAHAN",
+    "npsn": "70016034",
+    "kecamatan": "Nunkolo",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI SALBAIT",
+    "npsn": "70012744",
+    "kecamatan": "Mollo Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI SAMBET",
+    "npsn": "70013321",
+    "kecamatan": "Toianas",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA Negeri Sasitamean",
+    "npsn": "69897125",
+    "kecamatan": "Sasitamean",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA NEGERI SILAIPUI",
+    "npsn": "69948621",
+    "kecamatan": "Alor Selatan",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI TEREWENG",
+    "npsn": "70038167",
+    "kecamatan": "Pantar Timur",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA NEGERI TOBU",
+    "npsn": "69939617",
+    "kecamatan": "Tobu",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI TOINEKE",
+    "npsn": "69903967",
+    "kecamatan": "Kualin",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI TUPAN",
+    "npsn": "70036796",
+    "kecamatan": "BatuPutih",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI USAPIMNASI",
+    "npsn": "69904815",
+    "kecamatan": "Polen",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA NEGERI WAIBLAMA",
+    "npsn": "69971102",
+    "kecamatan": "Waiblama",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMA NEGERI WEBRIAMATA",
+    "npsn": "69889079",
+    "kecamatan": "Wewiku",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA Negeri Wederok",
+    "npsn": "69899565",
+    "kecamatan": "Weliman",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA NEGERI WELAMOSA",
+    "npsn": "69839276",
+    "kecamatan": "Wewaria",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA PAHLAWAN BINTANG TIMUR",
+    "npsn": "70011407",
+    "kecamatan": "Fatuleu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA PENABUR PLUS TEAS",
+    "npsn": "69981634",
+    "kecamatan": "Noebeba",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA PGRI KALABAHI",
+    "npsn": "69939495",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMA PGRI TAMBOLAKA",
+    "npsn": "69883508",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA PGRI WAINGAPU",
+    "npsn": "50303793",
+    "kecamatan": "Kota Waingapu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMA PLK FLORESSTA MAUMERE",
+    "npsn": "69947798",
+    "kecamatan": "Alok Barat",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMA PLUS MASA DEPAN MANDIRI",
+    "npsn": "69870904",
+    "kecamatan": "Alak",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA PLUS ST. ALBERTUS AGUNG WELEUN",
+    "npsn": "69969786",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA PLUS UMMA KATUKKU",
+    "npsn": "69895838",
+    "kecamatan": "Wewewa Timur",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA RADA PAMBA",
+    "npsn": "69895841",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA Raden Adjeng Kartini",
+    "npsn": "69897141",
+    "kecamatan": "Malaka Barat",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA RADEN ADJENG KARTINI UMATOOS",
+    "npsn": "70009620",
+    "kecamatan": "Malaka Barat",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA RARA",
+    "npsn": "69895839",
+    "kecamatan": "Wewewa Selatan",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA RATU ROSARI MOTAULUN",
+    "npsn": "69822783",
+    "kecamatan": "Malaka Barat",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA ROSO",
+    "npsn": "70039488",
+    "kecamatan": "Kodi",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA Santa Angela Atambua",
+    "npsn": "70003150",
+    "kecamatan": "Kota Atambua",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA SANTO PAULUS WELIMAN",
+    "npsn": "70027436",
+    "kecamatan": "Weliman",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA SEMINARI ST. YOH BERKHMANS",
+    "npsn": "69870671",
+    "kecamatan": "Golewa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMA SINTER CLAUS SION SUKABILULIK",
+    "npsn": "69987476",
+    "kecamatan": "Malaka Barat",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA STO. ARNOLDUS JANSSEN KUPANG",
+    "npsn": "69988292",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA SURIA ATAMBUA",
+    "npsn": "50301403",
+    "kecamatan": "Atambua Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA SWASTA ABDI KASIH BANGSA",
+    "npsn": "69987823",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA SWASTA ADVENT PONAIN",
+    "npsn": "50300260",
+    "kecamatan": "Amarasi",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA SWASTA ADVENT SABU TIMUR",
+    "npsn": "70036039",
+    "kecamatan": "Sabu Timur",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMA SWASTA AGAPE NUNUSUNU",
+    "npsn": "70047453",
+    "kecamatan": "Kualin",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMA Swasta Budi Mulia 2 Kereana",
+    "npsn": "69978320",
+    "kecamatan": "Botin Leobele",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA SWASTA BUDI MULIA BAKIRUK",
+    "npsn": "69979990",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA SWASTA CENDANA BOAS",
+    "npsn": "69978354",
+    "kecamatan": "Malaka Timur",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMA SWASTA EFATA SULAMU",
+    "npsn": "50300261",
+    "kecamatan": "Sulamu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMA SWASTA ILE BOLENG",
+    "npsn": "50306151",
+    "kecamatan": "Ile Boleng",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA SWASTA ILE BURA",
+    "npsn": "70011652",
+    "kecamatan": "Ilebura",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA SWASTA KATOLIK FRATERAN PODOR",
+    "npsn": "50301896",
+    "kecamatan": "Larantuka",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA SWASTA KATOLIK SANTU DARIUS",
+    "npsn": "50301878",
+    "kecamatan": "Larantuka",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA SWASTA KEBERBAKATAN OLAHRAGA SAN BERNARDINO",
+    "npsn": "69966104",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMA SWASTA KRISTEN ELOPADA",
+    "npsn": "70036877",
+    "kecamatan": "Wewewa Timur",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA Swasta Marapati",
+    "npsn": "69947662",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA SWASTA MUHAMMADIYAH LAMAHALA",
+    "npsn": "50301887",
+    "kecamatan": "Adonara Timur",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA SWASTA NESI NEONMAT",
+    "npsn": "69978370",
+    "kecamatan": "Kota Lama",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA SWASTA NUSA LONTAR",
+    "npsn": "70047415",
+    "kecamatan": "Landu Leko",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMA SWASTA PGRI LARANTUKA",
+    "npsn": "50301885",
+    "kecamatan": "Larantuka",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA Swasta Sta. Familia Sikumana Kupang",
+    "npsn": "70010693",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA SWASTA SURYA MANDALA",
+    "npsn": "50301879",
+    "kecamatan": "Adonara Timur",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMA Swasta Taman Siswa Kodi Bangedo",
+    "npsn": "69947958",
+    "kecamatan": "Kodi Bangedo",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA TAMAN SISWA KODI MAREHA",
+    "npsn": "70015903",
+    "kecamatan": "Kodi",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA TARUNA LIDAK ATAMBUA",
+    "npsn": "69846046",
+    "kecamatan": "Atambua Selatan",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA TERPADU HATI TERSUCI MARIA HALILULIK",
+    "npsn": "50309323",
+    "kecamatan": "Tasifeto Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMA TIGA PUTRA",
+    "npsn": "69986032",
+    "kecamatan": "Alak",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA TRI DHARMA ENDE",
+    "npsn": "50305399",
+    "kecamatan": "Ende Tengah",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMA TUNAS HARAPAN",
+    "npsn": "50309006",
+    "kecamatan": "Alak",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMA WAILANGIRA",
+    "npsn": "69895842",
+    "kecamatan": "Kodi Bangedo",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA WAIMANGURA",
+    "npsn": "69895840",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMA WALI ATE",
+    "npsn": "69896150",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAK FRATERAN MAUMERE",
+    "npsn": "50305305",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAK. ST. GABRIEL NOEMUTI",
+    "npsn": "50307410",
+    "kecamatan": "Noemuti",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN 1 AESESA",
+    "npsn": "50309015",
+    "kecamatan": "Aesesa",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMAN 1 AIMERE",
+    "npsn": "50302954",
+    "kecamatan": "Aimere",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAN 1 AMANUBAN SELATAN",
+    "npsn": "50300583",
+    "kecamatan": "Amanuban Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN 1 AMANUBAN TENGAH",
+    "npsn": "50307291",
+    "kecamatan": "Amanuban Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN 1 AMANUBAN TIMUR",
+    "npsn": "50300584",
+    "kecamatan": "Amanuban Timur",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN 1 AMFOANG BARAT DAYA",
+    "npsn": "69734023",
+    "kecamatan": "Amfoang Barat Daya",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 1 AMFOANG BARAT LAUT",
+    "npsn": "69822785",
+    "kecamatan": "Amfoang Barat Laut",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 1 AMFOANG SELATAN",
+    "npsn": "50309598",
+    "kecamatan": "Amfoang Selatan",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 1 ATAMBUA",
+    "npsn": "50301404",
+    "kecamatan": "Kota Atambua",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMAN 1 BAJAWA",
+    "npsn": "50302956",
+    "kecamatan": "Bajawa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAN 1 BOLA",
+    "npsn": "50302315",
+    "kecamatan": "Bola",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAN 1 BOLENG",
+    "npsn": "50308365",
+    "kecamatan": "Boleng",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 1 BORONG",
+    "npsn": "50308593",
+    "kecamatan": "Rana Mese",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 1 CIBAL",
+    "npsn": "50303425",
+    "kecamatan": "Cibal",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 1 ELAR",
+    "npsn": "50308594",
+    "kecamatan": "Elar",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 1 FATULEU",
+    "npsn": "50306571",
+    "kecamatan": "Fatuleu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 1 FATULEU BARAT",
+    "npsn": "50309599",
+    "kecamatan": "Fatuleu Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 1 FATULEU TENGAH",
+    "npsn": "69725918",
+    "kecamatan": "Fatuleu Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 1 GOLEWA",
+    "npsn": "50306183",
+    "kecamatan": "Golewa Barat",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAN 1 GOLEWA SELATAN",
+    "npsn": "69946949",
+    "kecamatan": "Golewa Selatan",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAN 1 GOLEWA WERE",
+    "npsn": "69946999",
+    "kecamatan": "Golewa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAN 1 INERIE",
+    "npsn": "69947000",
+    "kecamatan": "Inerie",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAN 1 INSANA",
+    "npsn": "50301007",
+    "kecamatan": "Insana",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN 1 KALABAHI",
+    "npsn": "50301695",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN 1 KAMBERA",
+    "npsn": "69822791",
+    "kecamatan": "Kambera",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMAN 1 KEFAMENANU",
+    "npsn": "50301006",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN 1 KEO TENGAH",
+    "npsn": "50309259",
+    "kecamatan": "Keo Tengah",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMAN 1 KODI",
+    "npsn": "50304067",
+    "kecamatan": "Kodi",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAN 1 KOMODO",
+    "npsn": "50304771",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 1 KOTA KOMBA",
+    "npsn": "50308595",
+    "kecamatan": "Kota Komba",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 1 KUPANG",
+    "npsn": "50304931",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN 1 KUPANG TENGAH",
+    "npsn": "50300273",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 1 KUPANG TIMUR",
+    "npsn": "50300274",
+    "kecamatan": "Kupang Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 1 KUWUS",
+    "npsn": "50308981",
+    "kecamatan": "Kuwus",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 1 LAMBA LEDA",
+    "npsn": "50308596",
+    "kecamatan": "Lamba Leda",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 1 LAMBOYA",
+    "npsn": "60726234",
+    "kecamatan": "Lamboya",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMAN 1 LANGKE REMBONG",
+    "npsn": "50303429",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 1 LELAK",
+    "npsn": "69734147",
+    "kecamatan": "Lelak",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 1 LEMBOR",
+    "npsn": "69733944",
+    "kecamatan": "Lembor",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 1 LEMBOR SELATAN",
+    "npsn": "50308982",
+    "kecamatan": "Lembor Selatan",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 1 LIAE",
+    "npsn": "69733989",
+    "kecamatan": "Sabu Liae",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMAN 1 LOBALAIN",
+    "npsn": "50304604",
+    "kecamatan": "Lobalain",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMAN 1 LOURA",
+    "npsn": "50304068",
+    "kecamatan": "Loura",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAN 1 MACANG PACAR",
+    "npsn": "50304770",
+    "kecamatan": "Macang Pacar",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 1 MALAKA BARAT",
+    "npsn": "50309603",
+    "kecamatan": "Malaka Barat",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAN 1 MALAKA TIMUR",
+    "npsn": "50309321",
+    "kecamatan": "Malaka Timur",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAN 1 MAMBORO",
+    "npsn": "69774869",
+    "kecamatan": "Mamboro",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SMAN 1 MAUMERE",
+    "npsn": "50302306",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAN 1 MAUPONGGO",
+    "npsn": "50302955",
+    "kecamatan": "Mauponggo",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMAN 1 MBELILING",
+    "npsn": "50304775",
+    "kecamatan": "Mbeliling",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 1 MOLLO SELATAN",
+    "npsn": "50300585",
+    "kecamatan": "Mollo Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN 1 NAGAWUTUNG",
+    "npsn": "50304406",
+    "kecamatan": "Naga Wutung",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMAN 1 NDOSO",
+    "npsn": "50308364",
+    "kecamatan": "Ndoso",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 1 NITA",
+    "npsn": "50302305",
+    "kecamatan": "Nita",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAN 1 NUBATUKAN",
+    "npsn": "50304405",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMAN 1 PANTAI BARU",
+    "npsn": "50304605",
+    "kecamatan": "Pantai Baru",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMAN 1 PANTAR",
+    "npsn": "50305901",
+    "kecamatan": "Pantar",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN 1 POCO RANAKA",
+    "npsn": "50308597",
+    "kecamatan": "Lamba Leda Selatan (Poco Ranaka)",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 1 RAHONG UTARA",
+    "npsn": "69734148",
+    "kecamatan": "Rahong Utara",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 1 REOK",
+    "npsn": "50307941",
+    "kecamatan": "Reok Barat",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 1 RIUNG BARAT",
+    "npsn": "50307844",
+    "kecamatan": "Riung Barat",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAN 1 ROTE BARAT",
+    "npsn": "50304610",
+    "kecamatan": "Rote Barat",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMAN 1 ROTE BARAT DAYA",
+    "npsn": "50304606",
+    "kecamatan": "Rote Barat Daya",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMAN 1 ROTE BARAT LAUT",
+    "npsn": "50304607",
+    "kecamatan": "Rote Barat Laut",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMAN 1 ROTE TENGAH",
+    "npsn": "50304608",
+    "kecamatan": "Rote Tengah",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMAN 1 ROTE TIMUR",
+    "npsn": "50304609",
+    "kecamatan": "Rote Timur",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMAN 1 RUTENG ANAM",
+    "npsn": "50307942",
+    "kecamatan": "Ruteng",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 1 SABU BARAT",
+    "npsn": "50300275",
+    "kecamatan": "Sabu Barat",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMAN 1 SABU TENGAH",
+    "npsn": "69733990",
+    "kecamatan": "Sabu Tengah",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMAN 1 SABU TIMUR",
+    "npsn": "50300276",
+    "kecamatan": "Sabu Timur",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMAN 1 SAMBI RAMPAS",
+    "npsn": "50308598",
+    "kecamatan": "Congkar",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 1 SANO NGGOANG",
+    "npsn": "50308361",
+    "kecamatan": "Sano Nggoang",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 1 SATARMESE",
+    "npsn": "50303447",
+    "kecamatan": "Satar Mese Barat",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 1 SOA",
+    "npsn": "50306188",
+    "kecamatan": "Soa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAN 1 SOE",
+    "npsn": "50307294",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN 1 SOLOR BARAT",
+    "npsn": "50301898",
+    "kecamatan": "Solor Barat",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMAN 1 SULAMU",
+    "npsn": "69822787",
+    "kecamatan": "Sulamu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 1 TAEBENU",
+    "npsn": "50300267",
+    "kecamatan": "Taebenu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 1 TAEKAS",
+    "npsn": "50307416",
+    "kecamatan": "Miomafo Timur",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN 1 TALIBURA",
+    "npsn": "50302304",
+    "kecamatan": "Talibura",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAN 1 TANA RIGHU",
+    "npsn": "60726236",
+    "kecamatan": "Tana Righu",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMAN 1 TANJUNG BUNGA",
+    "npsn": "50306149",
+    "kecamatan": "Tanjung Bunga",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMAN 1 TASIFETO BARAT",
+    "npsn": "50309318",
+    "kecamatan": "Tasifeto Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMAN 1 TASIFETO TIMUR",
+    "npsn": "50309324",
+    "kecamatan": "Tasifeto Timur",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMAN 1 UMBU RATU NGGAY BARAT",
+    "npsn": "60726630",
+    "kecamatan": "Umbu Ratu Nggay Barat",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SMAN 1 WELAK",
+    "npsn": "50308363",
+    "kecamatan": "Welak",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 1 WEWEWA SELATAN",
+    "npsn": "50309608",
+    "kecamatan": "Wewewa Selatan",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAN 1 WEWEWA TIMUR",
+    "npsn": "50304081",
+    "kecamatan": "Wewewa Tengah",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAN 1 WEWEWA UTARA",
+    "npsn": "50309611",
+    "kecamatan": "Wewewa Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAN 1 WOLOWAE",
+    "npsn": "50308302",
+    "kecamatan": "Wolowae",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMAN 10 KUPANG",
+    "npsn": "50306170",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN 11 KUPANG",
+    "npsn": "60702920",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN 2 AMABI OEFETO TIMUR",
+    "npsn": "69822788",
+    "kecamatan": "Amabi Oefeto Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 2 AMARASI",
+    "npsn": "69765062",
+    "kecamatan": "Amarasi",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 2 AMARASI SELATAN",
+    "npsn": "69758125",
+    "kecamatan": "Amarasi Selatan",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 2 AMARASI TIMUR",
+    "npsn": "69772619",
+    "kecamatan": "Amarasi Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 2 BAJAWA",
+    "npsn": "69947184",
+    "kecamatan": "Bajawa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAN 2 BORONG",
+    "npsn": "50308599",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 2 CIBAL",
+    "npsn": "69760873",
+    "kecamatan": "Cibal Barat",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 2 ELAR",
+    "npsn": "50308601",
+    "kecamatan": "Elar Selatan",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 2 FATULEU",
+    "npsn": "50309614",
+    "kecamatan": "Fatuleu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 2 FATULEU BARAT",
+    "npsn": "69765060",
+    "kecamatan": "Fatuleu Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 2 FATULEU TENGAH",
+    "npsn": "69772616",
+    "kecamatan": "Fatuleu Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 2 KALABAHI",
+    "npsn": "50305902",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN 2 KEFAMENANU",
+    "npsn": "50301005",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN 2 KOMODO",
+    "npsn": "50308980",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 2 KOTA KOMBA",
+    "npsn": "50308602",
+    "kecamatan": "Kota Komba",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 2 KUPANG",
+    "npsn": "50304930",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN 2 KUPANG BARAT",
+    "npsn": "60728880",
+    "kecamatan": "Kupang Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 2 KUPANG TENGAH",
+    "npsn": "69768296",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 2 KUPANG TIMUR",
+    "npsn": "50300259",
+    "kecamatan": "Kupang Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 2 KUWUS",
+    "npsn": "69775289",
+    "kecamatan": "Kuwus Barat",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 2 LAMBA LEDA",
+    "npsn": "50310686",
+    "kecamatan": "Lamba Leda Utara",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 2 LANGKE REMBONG",
+    "npsn": "50303316",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 2 LEMBOR SELATAN",
+    "npsn": "50310801",
+    "kecamatan": "Lembor Selatan",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 2 MAUMERE",
+    "npsn": "50302295",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAN 2 NUBATUKAN",
+    "npsn": "50305137",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMAN 2 RAHONG UTARA BEOKINA",
+    "npsn": "69760874",
+    "kecamatan": "Rahong Utara",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 2 SAMBI RAMPAS",
+    "npsn": "50308604",
+    "kecamatan": "Sambi Rampas",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 2 SANO NGGOANG",
+    "npsn": "50308362",
+    "kecamatan": "Sano Nggoang",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAN 2 SATAR MESE LANGKE MAJOK",
+    "npsn": "69726058",
+    "kecamatan": "Satar Mese Utara",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 2 TAEBENU",
+    "npsn": "69774728",
+    "kecamatan": "Taebenu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 3 AESESA",
+    "npsn": "69972601",
+    "kecamatan": "Aesesa",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMAN 3 BORONG",
+    "npsn": "50309258",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 3 ELAR",
+    "npsn": "50308605",
+    "kecamatan": "Elar Selatan",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 3 FATULEU",
+    "npsn": "50309616",
+    "kecamatan": "Fatuleu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAN 3 KOTA KOMBA",
+    "npsn": "50309284",
+    "kecamatan": "Kota Komba Utara",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 3 KUPANG",
+    "npsn": "50305119",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN 3 LAMBA LEDA",
+    "npsn": "69768157",
+    "kecamatan": "Lamba Leda",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 3 POCO RANAKA",
+    "npsn": "50309283",
+    "kecamatan": "Lamba Leda Timur (Poco Ranaka Timur)",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 3 SAMBI RAMPAS",
+    "npsn": "50309282",
+    "kecamatan": "Congkar",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 3 SATAR MESE",
+    "npsn": "69726059",
+    "kecamatan": "Satarmese",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 4 BORONG",
+    "npsn": "50309280",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 4 ELAR",
+    "npsn": "69768161",
+    "kecamatan": "Elar Selatan",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 4 KOTA KOMBA",
+    "npsn": "50310687",
+    "kecamatan": "Kota Komba Utara",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 4 KUPANG",
+    "npsn": "50305120",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN 4 LAMBA LEDA",
+    "npsn": "69768158",
+    "kecamatan": "Lamba Leda Utara",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 4 POCO RANAKA",
+    "npsn": "50310691",
+    "kecamatan": "Lamba Leda Selatan (Poco Ranaka)",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 4 SAMBI RAMPAS",
+    "npsn": "69725270",
+    "kecamatan": "Congkar",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 4 SATARMESE",
+    "npsn": "70006140",
+    "kecamatan": "Satarmese",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAN 5 BORONG",
+    "npsn": "50309281",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 5 ELAR",
+    "npsn": "69768162",
+    "kecamatan": "Elar Selatan",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 5 KOTA KOMBA",
+    "npsn": "50310688",
+    "kecamatan": "Kota Komba Utara",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 5 KUPANG",
+    "npsn": "50304947",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN 5 POCO RANAKA",
+    "npsn": "69768159",
+    "kecamatan": "Lamba Leda Selatan (Poco Ranaka)",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 6 BORONG",
+    "npsn": "50310684",
+    "kecamatan": "Rana Mese",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 6 Elar",
+    "npsn": "69888802",
+    "kecamatan": "Elar",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 6 KOTA KOMBA",
+    "npsn": "50310689",
+    "kecamatan": "Kota Komba",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 6 KUPANG",
+    "npsn": "50304946",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN 6 POCO RANAKA",
+    "npsn": "69768160",
+    "kecamatan": "Lamba Leda Selatan (Poco Ranaka)",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 7 BORONG",
+    "npsn": "50310685",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 7 Elar",
+    "npsn": "69888773",
+    "kecamatan": "Elar",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 7 KOTA KOMBA",
+    "npsn": "50310690",
+    "kecamatan": "Kota Komba",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 7 KUPANG",
+    "npsn": "50304945",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN 7 Poco Ranaka",
+    "npsn": "69888717",
+    "kecamatan": "Lamba Leda Timur (Poco Ranaka Timur)",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 8 BORONG",
+    "npsn": "69768163",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 8 Kota Komba",
+    "npsn": "69888662",
+    "kecamatan": "Kota Komba Utara",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 8 KUPANG",
+    "npsn": "50305121",
+    "kecamatan": "Alak",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN 8 Poco Ranaka",
+    "npsn": "69888718",
+    "kecamatan": "Lamba Leda Selatan (Poco Ranaka)",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 9 BORONG",
+    "npsn": "69768164",
+    "kecamatan": "Rana Mese",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAN 9 KUPANG",
+    "npsn": "50304943",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAN ALAS",
+    "npsn": "69862588",
+    "kecamatan": "Kobalima Timur",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAN APUI",
+    "npsn": "69762588",
+    "kecamatan": "Alor Selatan",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN ATENGMELANG",
+    "npsn": "69762590",
+    "kecamatan": "Alor Tengah Utara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN AWAALAH",
+    "npsn": "69759213",
+    "kecamatan": "Alor Barat Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN AYOTUPAS",
+    "npsn": "50300586",
+    "kecamatan": "Amanatun Utara",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN BARANUSA",
+    "npsn": "50305903",
+    "kecamatan": "Pantar Barat",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN BENLUTU",
+    "npsn": "50309196",
+    "kecamatan": "BatuPutih",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN BIBOKI ANLEU",
+    "npsn": "50307413",
+    "kecamatan": "Biboki Anleu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN BIKOMI NILULAT (PERSIAPAN)",
+    "npsn": "69728422",
+    "kecamatan": "Bikomi Nilulat",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN BIUDUK FOHO",
+    "npsn": "50309322",
+    "kecamatan": "Rinhat",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAN BOKONG",
+    "npsn": "69882386",
+    "kecamatan": "Toianas",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN BOLAN",
+    "npsn": "69862587",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAN BURAGA",
+    "npsn": "69759214",
+    "kecamatan": "Abad Selatan",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN FAFINESU",
+    "npsn": "50309579",
+    "kecamatan": "Insana Fafinesu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN INSANA BARAT",
+    "npsn": "69728423",
+    "kecamatan": "Insana Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN INSANA TENGAH",
+    "npsn": "69728420",
+    "kecamatan": "Insana Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN Kabola",
+    "npsn": "69889073",
+    "kecamatan": "Kabola",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN KAPAN",
+    "npsn": "50300587",
+    "kecamatan": "Mollo Utara",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN Kokbaun",
+    "npsn": "69985439",
+    "kecamatan": "Kok Baun",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN KUALIN",
+    "npsn": "50307298",
+    "kecamatan": "Kualin",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN KUANFATU",
+    "npsn": "50307299",
+    "kecamatan": "Kuanfatu",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN LAMALU",
+    "npsn": "69822782",
+    "kecamatan": "Pantar",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN LANTOKA",
+    "npsn": "69762587",
+    "kecamatan": "Alor Timur",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN LURASIK",
+    "npsn": "50300984",
+    "kecamatan": "Biboki Utara",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN MAIWAL",
+    "npsn": "69771356",
+    "kecamatan": "Alor Barat Daya",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN MANAMAS",
+    "npsn": "69727470",
+    "kecamatan": "Naibenu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN MANUFUI",
+    "npsn": "50307411",
+    "kecamatan": "Biboki Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN MATARU",
+    "npsn": "69762589",
+    "kecamatan": "Mataru",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN MAUTA",
+    "npsn": "69759212",
+    "kecamatan": "Pantar Tengah",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN MUTIS",
+    "npsn": "69727469",
+    "kecamatan": "Mutis",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN MUTIS EBAN",
+    "npsn": "50301003",
+    "kecamatan": "Miomafo Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN NOEBANA",
+    "npsn": "50309194",
+    "kecamatan": "Noebana",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN NOEMUTI",
+    "npsn": "50307414",
+    "kecamatan": "Noemuti",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN OELEU",
+    "npsn": "50309195",
+    "kecamatan": "Toianas",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN OENINO",
+    "npsn": "69987673",
+    "kecamatan": "Oenino",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN OENOPO",
+    "npsn": "50301004",
+    "kecamatan": "Biboki Tanpah",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN OINLASI",
+    "npsn": "50309622",
+    "kecamatan": "Amanatun Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN PANTURA",
+    "npsn": "50307415",
+    "kecamatan": "Biboki Moenleu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAN PROBUR",
+    "npsn": "69762591",
+    "kecamatan": "Alor Barat Daya",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN Pulau Pura",
+    "npsn": "69889074",
+    "kecamatan": "Pulau Pura",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN PUREMAN",
+    "npsn": "69774849",
+    "kecamatan": "Pureman",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN ROLE DELU",
+    "npsn": "50305307",
+    "kecamatan": "Paga",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAN ROTE SELATAN",
+    "npsn": "50305376",
+    "kecamatan": "Rote Selatan",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMAN SANTIAN",
+    "npsn": "50307301",
+    "kecamatan": "Santian",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAN TAMALABANG",
+    "npsn": "50305898",
+    "kecamatan": "Pantar Timur",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAN WELAUS",
+    "npsn": "69862586",
+    "kecamatan": "Kobalima",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAN WOLOJITA",
+    "npsn": "50305406",
+    "kecamatan": "Wolojita",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMAN WOLWAL",
+    "npsn": "69762592",
+    "kecamatan": "Alor Barat Daya",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAS 17 AGUSTUS WEOE",
+    "npsn": "50301400",
+    "kecamatan": "Wewiku",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAS 7 SEP 99 ATAMBUA",
+    "npsn": "50309473",
+    "kecamatan": "Atambua Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMAS ADVENT NUSRA",
+    "npsn": "50300243",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAS AL IKHLAS SOE",
+    "npsn": "50300664",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS BERINGIN",
+    "npsn": "50304949",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS BHAKTYARSA MAUMERE",
+    "npsn": "50302309",
+    "kecamatan": "Alok Timur",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAS BINA KARYA ATAMBUA",
+    "npsn": "50301401",
+    "kecamatan": "Atambua Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMAS BINA KUSUMA",
+    "npsn": "50303442",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS BINA MANDIRI SUKABI",
+    "npsn": "50309383",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAS BINTANG TIMUR",
+    "npsn": "50303443",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS BUDI DHARMA",
+    "npsn": "50303445",
+    "kecamatan": "Ruteng",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS DHARMA AYU",
+    "npsn": "69760655",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAS EFATA SOE",
+    "npsn": "50307282",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS EL TARI",
+    "npsn": "50305261",
+    "kecamatan": "Kota Raja",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS ELPIDA",
+    "npsn": "69822789",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAS FAJAR TIMUR HAITIMUK",
+    "npsn": "50309581",
+    "kecamatan": "Weliman",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAS FLOBAMOR",
+    "npsn": "50308513",
+    "kecamatan": "Alak",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS FRATER DON BOSCO",
+    "npsn": "50309120",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMAS IKARASI OEKABITI",
+    "npsn": "50300257",
+    "kecamatan": "Amarasi",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAS ILE APE",
+    "npsn": "50310786",
+    "kecamatan": "Ile Ape",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMAS K PANCASILA BORONG",
+    "npsn": "50308592",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAS K ST ARNOLDUS MUKUN",
+    "npsn": "50308607",
+    "kecamatan": "Kota Komba Utara",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAS K ST.MARKUS PATENG",
+    "npsn": "50309224",
+    "kecamatan": "Macang Pacar",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAS KARANU WAIKABUBAK",
+    "npsn": "50304066",
+    "kecamatan": "Kota Waikabubak",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMAS KARYA",
+    "npsn": "50303446",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS KARYA SOE",
+    "npsn": "50300665",
+    "kecamatan": "Mollo Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS KATHOLIK ST ALFONSUS",
+    "npsn": "50304065",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAS KATOLIK  ST. JOHN PAUL II MAUMERE",
+    "npsn": "50302314",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAS KATOLIK CARITAS",
+    "npsn": "69968724",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAS KATOLIK KEJORA RIUNG",
+    "npsn": "50302951",
+    "kecamatan": "Riung",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAS KATOLIK LAMAHOLOT",
+    "npsn": "50301881",
+    "kecamatan": "Witihama",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMAS KATOLIK SANTA MARIA RUBIT",
+    "npsn": "50302312",
+    "kecamatan": "Hewokloang",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAS KATOLIK SINT PIETER WAIKABUBAK",
+    "npsn": "69734157",
+    "kecamatan": "Loli",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMAS KATOLIK ST CAROLUS",
+    "npsn": "50304937",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS KATOLIK ST. GABRIEL MAUMERE",
+    "npsn": "50302311",
+    "kecamatan": "Alok Timur",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAS KATOLIK THOMAS AQUINO",
+    "npsn": "50302957",
+    "kecamatan": "Golewa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAS KRISTEN 1 KALABAHI",
+    "npsn": "50301674",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAS KRISTEN 1 KUPANG",
+    "npsn": "50305262",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS KRISTEN 1 SOE",
+    "npsn": "50307284",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS KRISTEN 2 KALABAHI",
+    "npsn": "50301675",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAS KRISTEN 2 KUPANG",
+    "npsn": "69767796",
+    "kecamatan": "Kota Raja",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS KRISTEN 2 SOE",
+    "npsn": "50300683",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS KRISTEN AMANATUN SELATAN",
+    "npsn": "50307286",
+    "kecamatan": "Amanatun Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS KRISTEN ATAMBUA",
+    "npsn": "50309375",
+    "kecamatan": "Kota Atambua",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMAS KRISTEN BOKING",
+    "npsn": "50309198",
+    "kecamatan": "Boking",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS KRISTEN GENERASI UNGGUL",
+    "npsn": "69726555",
+    "kecamatan": "Kota Raja",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS KRISTEN ITA ESA",
+    "npsn": "50305347",
+    "kecamatan": "Loaholu",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMAS KRISTEN KAPAN",
+    "npsn": "50307287",
+    "kecamatan": "Mollo Utara",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS KRISTEN MANEKTO KUATNANA",
+    "npsn": "50307288",
+    "kecamatan": "Kuatnana",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS KRISTEN MERCUSUAR",
+    "npsn": "50305118",
+    "kecamatan": "Kota Raja",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS KRISTEN POLI",
+    "npsn": "50307289",
+    "kecamatan": "Santian",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS KRISTEN TARUS TENGAH",
+    "npsn": "50300258",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAS KRISTEN TESBATAN",
+    "npsn": "50300256",
+    "kecamatan": "Amarasi",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAS KRISTEN WAIKABUBAK",
+    "npsn": "50304061",
+    "kecamatan": "Kota Waikabubak",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMAS KRISTEN WEE KAROU",
+    "npsn": "50304062",
+    "kecamatan": "Loli",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMAS Leona Fatukmetan Lotas",
+    "npsn": "70008273",
+    "kecamatan": "Rinhat",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAS MANDA ELU",
+    "npsn": "50304063",
+    "kecamatan": "Loura",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAS MGR GABRIEL MANEK LAHURUS",
+    "npsn": "50301402",
+    "kecamatan": "Lasiolat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMAS MUHAMMADIYAH",
+    "npsn": "50308366",
+    "kecamatan": "Boleng",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAS MUHAMMADIYAH KALABAHI",
+    "npsn": "50305899",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMAS MUHAMMADIYAH KUPANG",
+    "npsn": "50304935",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS MUHAMMADIYAH MAUMERE",
+    "npsn": "50305306",
+    "kecamatan": "Alok Timur",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAS NCIPS",
+    "npsn": "50306082",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS NUSA TIMOR KIUONI",
+    "npsn": "69725921",
+    "kecamatan": "Fatuleu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAS PELITA KARYA",
+    "npsn": "50301008",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMAS PGRI GELEKAT LEWO BORU",
+    "npsn": "50301886",
+    "kecamatan": "Wulang Gitang",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMAS PGRI KUPANG",
+    "npsn": "50304934",
+    "kecamatan": "Kota Raja",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS PGRI MAUMERE",
+    "npsn": "50302310",
+    "kecamatan": "Alok Timur",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAS PGRI MNELALETE",
+    "npsn": "50307302",
+    "kecamatan": "Amanuban Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS PGRI OENAY",
+    "npsn": "50309192",
+    "kecamatan": "Kie",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS PGRI SOE",
+    "npsn": "50300582",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS PGRI SWASTHIKA",
+    "npsn": "50304407",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMAS PGRI WINIRAI SABU",
+    "npsn": "50300262",
+    "kecamatan": "Sabu Barat",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMAS PLUS OLAHRAGA NUSA TIMOR",
+    "npsn": "69763284",
+    "kecamatan": "Alak",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS REFORMASI PLUS",
+    "npsn": "50306573",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMAS REGINA PACIS BAJAWA",
+    "npsn": "50302958",
+    "kecamatan": "Bajawa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMAS SANTU KLAUS WERANG",
+    "npsn": "50304773",
+    "kecamatan": "Sano Nggoang",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAS SEMINARI LALIAN",
+    "npsn": "50309377",
+    "kecamatan": "Tasifeto Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMAS SEMINARI MARIA BUNDA SEGALA BANGSA",
+    "npsn": "50310683",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAS SEMINARI PIUS XII KISOL",
+    "npsn": "50308606",
+    "kecamatan": "Kota Komba",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAS SEMINARI SAN DOMINGGO",
+    "npsn": "50301877",
+    "kecamatan": "Wulang Gitang",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMAS SEMINARI SINAR BUANA",
+    "npsn": "50304064",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAS SEMINARI ST RAFAEL",
+    "npsn": "50304933",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS SETIA BAKTI",
+    "npsn": "50303422",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS SETIAWAN NANGARORO",
+    "npsn": "50302968",
+    "kecamatan": "Nangaroro",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMAS SINAR PANCASILA BETUN",
+    "npsn": "50309590",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAS ST CLEMENS BOAWAE",
+    "npsn": "50302952",
+    "kecamatan": "Boawae",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMAS ST DON BOSCO",
+    "npsn": "50303418",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS ST FAMILIA WAE NAKENG",
+    "npsn": "50304772",
+    "kecamatan": "Lembor",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAS ST FRANSISKUS XAVERIUS",
+    "npsn": "50303423",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS ST FRANSISKUS XAVERIUS BOAWAE",
+    "npsn": "50302953",
+    "kecamatan": "Boawae",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMAS ST GREGORIUS REO",
+    "npsn": "50307939",
+    "kecamatan": "Reok",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS ST IGNATIUS FAHILUKA BOLAN",
+    "npsn": "50309591",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMAS ST IGNATIUS LOYOLA",
+    "npsn": "50304774",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMAS ST KLAUS",
+    "npsn": "50303419",
+    "kecamatan": "Ruteng",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS ST MARIA ITENG",
+    "npsn": "50307940",
+    "kecamatan": "Satarmese",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS ST MAXMILIAN KOLBE",
+    "npsn": "69774563",
+    "kecamatan": "Elar Selatan",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMAS ST PETRUS KEWAPANTE",
+    "npsn": "50302313",
+    "kecamatan": "Kewapante",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMAS ST THOMAS AQUINAS",
+    "npsn": "50303424",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS ST THOMAS AQUINAS",
+    "npsn": "50309626",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAS STELA GRATIA ATAMBUA",
+    "npsn": "50309374",
+    "kecamatan": "Kota Atambua",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMAS STELAMARIS NIKI-NIKI",
+    "npsn": "50307304",
+    "kecamatan": "Amanuban Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMAS SUDIRMAN",
+    "npsn": "50305384",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS TAMAN SISWA",
+    "npsn": "69830518",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMAS TARUNA MANDIRI FATUBENAO",
+    "npsn": "50309594",
+    "kecamatan": "Kota Atambua",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMAS TELADAN",
+    "npsn": "50305263",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS TIMPOLMAS",
+    "npsn": "69752273",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS TUNAS BANGSA",
+    "npsn": "50308460",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMAS WIDYA BHAKTI",
+    "npsn": "50303421",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMAS YASMOR PLUS OENONI",
+    "npsn": "50300263",
+    "kecamatan": "Amarasi",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMASK St. ANTONIUS BOGANATAR",
+    "npsn": "70053961",
+    "kecamatan": "Talibura",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMK 20 DESEMBER",
+    "npsn": "69947212",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMK Alam Lestari Ruteng",
+    "npsn": "69978535",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMK ARNOLDUS BETUN",
+    "npsn": "70029990",
+    "kecamatan": "Kobalima",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMK Bangun Mandiri Soa",
+    "npsn": "69978864",
+    "kecamatan": "Soa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMK BANK SALLER",
+    "npsn": "69915186",
+    "kecamatan": "Hewokloang",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMK BERDIKARI FETOMONE",
+    "npsn": "70035167",
+    "kecamatan": "Mollo Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK BERDIKARI PIKA",
+    "npsn": "69847638",
+    "kecamatan": "Mollo Utara",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK BINTANG KEFAMENANU",
+    "npsn": "70048447",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK CAHAYA LENTERA SOE",
+    "npsn": "77644736",
+    "kecamatan": "Mollo Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK CAKRAWALA NUSANTARA",
+    "npsn": "70049459",
+    "kecamatan": "Macang Pacar",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK CARTINTES ATAMBUA",
+    "npsn": "69786550",
+    "kecamatan": "Atambua Selatan",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMK CERDAS BANGSA",
+    "npsn": "70033545",
+    "kecamatan": "Kewapante",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMK CINTA DAMAI",
+    "npsn": "69774565",
+    "kecamatan": "Rana Mese",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMK CLARENT KEFAMENANU",
+    "npsn": "NP259283",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK DEO GLORIAM WANNO MUTTU",
+    "npsn": "70005384",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK DON BOSCO",
+    "npsn": "69935090",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK EFATA",
+    "npsn": "69895846",
+    "kecamatan": "Wewewa Timur",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK EKAPATA",
+    "npsn": "69895857",
+    "kecamatan": "Wewewa Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK FLORAS",
+    "npsn": "70040080",
+    "kecamatan": "Boawae",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMK GENERASI EMAS SABU RAIJUA",
+    "npsn": "70035131",
+    "kecamatan": "Hawu Mehara",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMK GENOVA PASIR PUTIH",
+    "npsn": "70047266",
+    "kecamatan": "Naga Wutung",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMK GONZAGA MBAY",
+    "npsn": "70041648",
+    "kecamatan": "Aesesa",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMK HARANI TRANSFORMASI RINDI",
+    "npsn": "69900123",
+    "kecamatan": "Rindi",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMK INTAN",
+    "npsn": "69831984",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK KALAKI KAMBE",
+    "npsn": "70041430",
+    "kecamatan": "Wewewa Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK KANELU",
+    "npsn": "69895845",
+    "kecamatan": "Wewewa Tengah",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK KARSA MANDIRI",
+    "npsn": "69990340",
+    "kecamatan": "Ndona",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK KASIMO",
+    "npsn": "69881354",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK KATOLIK MUKTYACA",
+    "npsn": "50305714",
+    "kecamatan": "Ende Tengah",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK KATOLIK ST YOSEF NENUK",
+    "npsn": "50309316",
+    "kecamatan": "Tasifeto Barat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMK Katolik St. Markus",
+    "npsn": "69903531",
+    "kecamatan": "Paga",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMK KATOLIK St. YOSEPH SOA",
+    "npsn": "69900741",
+    "kecamatan": "Soa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMK KATOLIK YOS SUDARSO",
+    "npsn": "50305396",
+    "kecamatan": "Ende Utara",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK KENCANA SAKTI CAMPLONG",
+    "npsn": "70051023",
+    "kecamatan": "Fatuleu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK KESEHATAN BAKTI SUMBA",
+    "npsn": "69934107",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK KESEHATAN SUARNA HUSADA",
+    "npsn": "69900259",
+    "kecamatan": "Biboki Anleu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK Kristen Belle",
+    "npsn": "69981848",
+    "kecamatan": "Kie",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK KRISTEN ELIM NEKMESE",
+    "npsn": "70047816",
+    "kecamatan": "Amarasi Selatan",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK KRISTEN ELPIDA INFORMATIKA",
+    "npsn": "69905530",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK Kristen Huetalan",
+    "npsn": "69972270",
+    "kecamatan": "Tobu",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK KRISTEN NENAS",
+    "npsn": "69949821",
+    "kecamatan": "Fatumnasi",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK Kristen Nunain",
+    "npsn": "69972272",
+    "kecamatan": "Mollo Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK MANU TOGHI",
+    "npsn": "69895834",
+    "kecamatan": "Kodi Balaghar",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK MAREDA WUNI",
+    "npsn": "69895844",
+    "kecamatan": "Wewewa Tengah",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK MARITIM NUSANTARA KUPANG",
+    "npsn": "70050789",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK MATA LOKO",
+    "npsn": "69900564",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK MAWODANA",
+    "npsn": "69895852",
+    "kecamatan": "Wewewa Timur",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK MUHAMMADIYAH GOLO MORI",
+    "npsn": "70052241",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK MUHAMMADIYAH MANGGARAI TIMUR",
+    "npsn": "70057428",
+    "kecamatan": "Sambi Rampas",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMK MUHAMMADIYAH WALANGSAWA",
+    "npsn": "70052999",
+    "kecamatan": "Omesuri",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMK Mutiara Bangsa Reok",
+    "npsn": "69980330",
+    "kecamatan": "Reok",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMK Nawa Cita Mego",
+    "npsn": "69985253",
+    "kecamatan": "Mego",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMK Negeri  1 Atadei",
+    "npsn": "69856248",
+    "kecamatan": "Atadei",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMK NEGERI 1  ADONARA",
+    "npsn": "69888596",
+    "kecamatan": "Adonara",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMK NEGERI 1 AMARASI",
+    "npsn": "69896139",
+    "kecamatan": "Amarasi",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK NEGERI 1 AMARASI BARAT",
+    "npsn": "69939165",
+    "kecamatan": "Amarasi Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK NEGERI 1 AMFOANG TENGAH",
+    "npsn": "70012936",
+    "kecamatan": "Amfoang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK NEGERI 1 AMFOANG UTARA",
+    "npsn": "70043706",
+    "kecamatan": "Amfoang Utara",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK NEGERI 1 BOLENG",
+    "npsn": "70012907",
+    "kecamatan": "Boleng",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK NEGERI 1 ENDE",
+    "npsn": "50305392",
+    "kecamatan": "Ende Timur",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK NEGERI 1 KEFAMENANU",
+    "npsn": "50301011",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK NEGERI 1 KODI BALAGHAR",
+    "npsn": "69881355",
+    "kecamatan": "Kodi Balaghar",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK NEGERI 1 LEMBOR SELATAN",
+    "npsn": "69842629",
+    "kecamatan": "Lembor Selatan",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK NEGERI 1 MACANG PACAR",
+    "npsn": "69842630",
+    "kecamatan": "Macang Pacar",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK NEGERI 1 NDOSO",
+    "npsn": "70052279",
+    "kecamatan": "Ndoso",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK NEGERI 1 PANDAWAI",
+    "npsn": "69954192",
+    "kecamatan": "Pandawai",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMK NEGERI 1 RAHONG UTARA",
+    "npsn": "70047212",
+    "kecamatan": "Rahong Utara",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMK NEGERI 1 REOK BARAT",
+    "npsn": "70035675",
+    "kecamatan": "Reok Barat",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMK NEGERI 1 RESTORASI GOLEWA",
+    "npsn": "70010024",
+    "kecamatan": "Golewa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMK NEGERI 1 SATARMESE",
+    "npsn": "70024103",
+    "kecamatan": "Satar Mese Barat",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMK NEGERI 1 TABUNDUNG",
+    "npsn": "69774699",
+    "kecamatan": "Tabundung",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMK NEGERI 1 TAEBENU",
+    "npsn": "70032123",
+    "kecamatan": "Taebenu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK Negeri 1 Titehena",
+    "npsn": "70044135",
+    "kecamatan": "Titehena",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMK NEGERI 1 UMBU RATU NGGAY",
+    "npsn": "69957059",
+    "kecamatan": "Umbu Ratu Nggay",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SMK NEGERI 1 UMBU RATU NGGAY TENGAH",
+    "npsn": "70039100",
+    "kecamatan": "Umbu Ratu Nggay Tengah",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SMK NEGERI 1 WAIBAKUL",
+    "npsn": "50308343",
+    "kecamatan": "Umbu Ratu Nggay Barat",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SMK NEGERI 1 WAINGAPU",
+    "npsn": "50303772",
+    "kecamatan": "Kota Waingapu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMK NEGERI 1 WEWEWA TENGAH",
+    "npsn": "70024101",
+    "kecamatan": "Wewewa Tengah",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK NEGERI 1 WOLOMEZE",
+    "npsn": "70010042",
+    "kecamatan": "Riung Selatan (Wolomeze)",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMK NEGERI 2 AMFOANG SELATAN",
+    "npsn": "70045155",
+    "kecamatan": "Amfoang Selatan",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK NEGERI 2 ENDE",
+    "npsn": "50302628",
+    "kecamatan": "Ende Timur",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK NEGERI 2 KOTA TAMBOLAKA",
+    "npsn": "69954174",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK NEGERI 2 LAMBOYA",
+    "npsn": "69966368",
+    "kecamatan": "Lamboya",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMK NEGERI 2 SABU BARAT",
+    "npsn": "69857892",
+    "kecamatan": "Sabu Barat",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMK NEGERI 2 TAKARI",
+    "npsn": "69867911",
+    "kecamatan": "Takari",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK NEGERI 2 WAINGAPU",
+    "npsn": "50303771",
+    "kecamatan": "Kota Waingapu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMK NEGERI 2 WELAK",
+    "npsn": "70011318",
+    "kecamatan": "Welak",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK NEGERI 3 ELAR",
+    "npsn": "70035268",
+    "kecamatan": "Elar",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMK NEGERI 3 ENDE",
+    "npsn": "50305393",
+    "kecamatan": "Wewaria",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK NEGERI 3 KOMODO",
+    "npsn": "70005734",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK NEGERI 3 MAUMERE",
+    "npsn": "69864616",
+    "kecamatan": "Alok Timur",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMK NEGERI 3 WEWEWA BARAT",
+    "npsn": "69933884",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK NEGERI 4 ENDE",
+    "npsn": "50308523",
+    "kecamatan": "Kota Baru",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK NEGERI 5 ENDE",
+    "npsn": "50308975",
+    "kecamatan": "Maukaro",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK NEGERI 5 WAINGAPU",
+    "npsn": "50305766",
+    "kecamatan": "Kambera",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMK NEGERI 6 KARERA",
+    "npsn": "69774700",
+    "kecamatan": "Karera",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMK NEGERI 7 ENDE",
+    "npsn": "69903685",
+    "kecamatan": "Kelimutu",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK NEGERI 7 RAKAWATU",
+    "npsn": "70035133",
+    "kecamatan": "Lewa",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMK NEGERI 8 KAMBATA MAPAMBUHANG",
+    "npsn": "70043298",
+    "kecamatan": "Kambata Mapambuhang",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMK NEGERI ADONARA BARAT",
+    "npsn": "70038323",
+    "kecamatan": "Adonara Barat",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMK NEGERI BABUIN",
+    "npsn": "70029086",
+    "kecamatan": "Kolbano",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK NEGERI BASMUTI",
+    "npsn": "70012332",
+    "kecamatan": "Kuanfatu",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK NEGERI BUNG RUTENG",
+    "npsn": "70050017",
+    "kecamatan": "Ruteng",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMK NEGERI BUNGTILU SEMAU",
+    "npsn": "70039863",
+    "kecamatan": "Semau",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK NEGERI FEOTLEU",
+    "npsn": "70033793",
+    "kecamatan": "Biboki Feotleu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK NEGERI HARNENO",
+    "npsn": "69872150",
+    "kecamatan": "Biboki Anleu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK NEGERI ILE BOLENG",
+    "npsn": "50306154",
+    "kecamatan": "Ile Boleng",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMK NEGERI INSANA BARAT TUAMAU",
+    "npsn": "69900339",
+    "kecamatan": "Insana Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK NEGERI JEREBUU",
+    "npsn": "69888528",
+    "kecamatan": "Jerebuu",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMK NEGERI KAKULUK MESAK",
+    "npsn": "50309364",
+    "kecamatan": "Kakuluk Mesak",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMK NEGERI NDORA",
+    "npsn": "70010881",
+    "kecamatan": "Nangaroro",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMK NEGERI NOEBAUN",
+    "npsn": "70006493",
+    "kecamatan": "Oenino",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK NEGERI NOEMUTI",
+    "npsn": "69899750",
+    "kecamatan": "Noemuti",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK NEGERI PERBATASAN LAMAKNEN SELATAN",
+    "npsn": "69889030",
+    "kecamatan": "Lamakmen Selatan",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMK NEGERI PERBATASAN RAI MANUK",
+    "npsn": "69941983",
+    "kecamatan": "Rai Manuk",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMK NEGERI POLLO",
+    "npsn": "70006278",
+    "kecamatan": "Amanuban Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK NEGERI RAIHAT",
+    "npsn": "50309398",
+    "kecamatan": "Raihat",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMK NEGERI RESTORASI PULAU KOMODO",
+    "npsn": "70029855",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK NEGERI RESTORASI TIMUNG WAE RII",
+    "npsn": "70035801",
+    "kecamatan": "Wae Ri`I",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMK NGAMBA DETA",
+    "npsn": "69895847",
+    "kecamatan": "Wewewa Timur",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK NUSA BUNGA ENDE",
+    "npsn": "69831999",
+    "kecamatan": "Ende Timur",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK NYURA LELE",
+    "npsn": "69895850",
+    "kecamatan": "Wewewa Timur",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK ORA ET LABORA",
+    "npsn": "70040948",
+    "kecamatan": "Mamboro",
+    "kabupaten_kota": "Kab. Sumba Tengah"
+  },
+  {
+    "nama": "SMK PANENGGO EDE",
+    "npsn": "69895858",
+    "kecamatan": "Kodi",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK Pelayaran Global Maritim Flores",
+    "npsn": "69980182",
+    "kecamatan": "Inerie",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMK PELAYARAN ST. PASKALIS",
+    "npsn": "50302629",
+    "kecamatan": "Ndona",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK PELITA OLE MILLA",
+    "npsn": "70040051",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK PERTANIAN DAN PETERNAKAN WEWEWA SELATAN",
+    "npsn": "69896077",
+    "kecamatan": "Wewewa Selatan",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK PERTANIAN PEMBANGUNAN NEGERI KUPANG",
+    "npsn": "69734022",
+    "kecamatan": "Fatuleu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK RADA PAMBA",
+    "npsn": "69896151",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK SADAR WISATA",
+    "npsn": "50303344",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMK SAN JOSE TAMBOLAKA",
+    "npsn": "69759088",
+    "kecamatan": "Loura",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK SANTA GENOVEVA MALAKA",
+    "npsn": "69969545",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMK SANTU BERTOLOMEUS",
+    "npsn": "69990902",
+    "kecamatan": "Riung Barat",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMK SENANG HATI BERKARYA",
+    "npsn": "70029736",
+    "kecamatan": "Wewewa Tengah",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK SOLID",
+    "npsn": "69895849",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK SOLMIN LOURA",
+    "npsn": "69896152",
+    "kecamatan": "Loura",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK St. AGUSTINUS GOLEWA",
+    "npsn": "69901257",
+    "kecamatan": "Golewa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMK ST. BARTHOLOMEUS",
+    "npsn": "69990276",
+    "kecamatan": "Lamba Leda",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMK St. Fransiskus Xaverius Maumere",
+    "npsn": "70001991",
+    "kecamatan": "Alok Barat",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMK STA. MARIA DE LOURDES",
+    "npsn": "70039968",
+    "kecamatan": "Kodi Bangedo",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK STA.THERESIA NANGALILI",
+    "npsn": "69842631",
+    "kecamatan": "Lembor Selatan",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK SUARA TIMUR TUNBABA",
+    "npsn": "69899025",
+    "kecamatan": "Miomafo Timur",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK SUARNA WISATA TES",
+    "npsn": "69900205",
+    "kecamatan": "Bikomi Utara",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK SURA DEWA",
+    "npsn": "50306156",
+    "kecamatan": "Larantuka",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMK SWASTA BINA KARYA LARANTUKA",
+    "npsn": "50301893",
+    "kecamatan": "Larantuka",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMK SWASTA BINTANG TIMUR",
+    "npsn": "69962868",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMK SWASTA BUNGA TANJUNG",
+    "npsn": "50308482",
+    "kecamatan": "Lewolema",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMK SWASTA HASAEL",
+    "npsn": "70001784",
+    "kecamatan": "Amarasi Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMK SWASTA KARYA MURNI",
+    "npsn": "70041269",
+    "kecamatan": "Lembor",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMK SWASTA KATOLIK SANTO IGNASIUS",
+    "npsn": "70012225",
+    "kecamatan": "Waigete",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMK Swasta Kencana Sakti Haumeni",
+    "npsn": "69979220",
+    "kecamatan": "Amanuban Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK SWASTA KOLBESI TIMOR",
+    "npsn": "71012297",
+    "kecamatan": "Biboki Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK SWASTA LAMAHOLOT LARANTUKA",
+    "npsn": "50301891",
+    "kecamatan": "Ile Mandiri",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMK SWASTA PARIWISATA MANISEN DHIRA",
+    "npsn": "79980430",
+    "kecamatan": "Ile Ape",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMK SWASTA RESTORASI SONATA",
+    "npsn": "70045766",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMK SWASTA ST. ALOISIUS",
+    "npsn": "69962869",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMK SWASTA ST. IGNASIUS ONE SEVEN",
+    "npsn": "70032284",
+    "kecamatan": "Lio Timur",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK SWASTA ST. MARIANUS FAFINESU",
+    "npsn": "72583858",
+    "kecamatan": "Insana Fafinesu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK SWASTA SURYA MANDALA",
+    "npsn": "50301892",
+    "kecamatan": "Adonara Timur",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMK SWASTA SURYA PERMATA EBAN",
+    "npsn": "70025653",
+    "kecamatan": "Miomafo Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK SWASTA TELUK HADING",
+    "npsn": "50308483",
+    "kecamatan": "Lewolema",
+    "kabupaten_kota": "Kab. Flores Timur"
+  },
+  {
+    "nama": "SMK TAMERA",
+    "npsn": "70039944",
+    "kecamatan": "Wewewa Selatan",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK TARBIYAH ENDE",
+    "npsn": "50305395",
+    "kecamatan": "Ende Utara",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMK TAWO RARA",
+    "npsn": "69895851",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK Teknologi Mahawira Mnelaanen",
+    "npsn": "70006045",
+    "kecamatan": "Amanuban Timur",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMK TEKNOLOGI MULTI TALENTA",
+    "npsn": "78655605",
+    "kecamatan": "Bikomi Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK TIARA NUSA",
+    "npsn": "69892779",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMK TRIKARI",
+    "npsn": "69872386",
+    "kecamatan": "Miomafo Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMK TUNAS HARAPAN NITA",
+    "npsn": "70005057",
+    "kecamatan": "Nita",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMK TUNAS TIMUR IYA TEKKI",
+    "npsn": "70039971",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK UYELINDO KUPANG",
+    "npsn": "50304942",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMK WEE PABOBA",
+    "npsn": "69900565",
+    "kecamatan": "Kota Tambolaka",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK WEE TOMBO",
+    "npsn": "69899118",
+    "kecamatan": "Wewewa Selatan",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMK YOS SUDARSO",
+    "npsn": "50305394",
+    "kecamatan": "Ende Tengah",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMKN 1 AESESA",
+    "npsn": "50302967",
+    "kecamatan": "Aesesa",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMKN 1 AESESA SELATAN",
+    "npsn": "69727854",
+    "kecamatan": "Aesesa Selatan",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMKN 1 AIMERE",
+    "npsn": "50306182",
+    "kecamatan": "Aimere",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMKN 1 AMABI OEFETO",
+    "npsn": "69763279",
+    "kecamatan": "Amabi Oefeto",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKN 1 AMABI OEFETO TIMUR",
+    "npsn": "69752276",
+    "kecamatan": "Amabi Oefeto Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKN 1 AMARASI SELATAN",
+    "npsn": "69725916",
+    "kecamatan": "Amarasi Selatan",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKN 1 AMFOANG BARAT LAUT",
+    "npsn": "69728761",
+    "kecamatan": "Amfoang Barat Laut",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKN 1 AMFOANG SELATAN",
+    "npsn": "69765059",
+    "kecamatan": "Amfoang Selatan",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKN 1 ATAMBUA",
+    "npsn": "50309313",
+    "kecamatan": "Atambua Selatan",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMKN 1 BORONG",
+    "npsn": "50308608",
+    "kecamatan": "Borong",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMKN 1 BUYASURI",
+    "npsn": "50305138",
+    "kecamatan": "Buyasuri",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMKN 1 ELAR",
+    "npsn": "69768166",
+    "kecamatan": "Elar Selatan",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMKN 1 ILE APE",
+    "npsn": "50305139",
+    "kecamatan": "Ile Ape",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMKN 1 KABUPATEN KUPANG",
+    "npsn": "50300265",
+    "kecamatan": "Kupang Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKN 1 KALABAHI",
+    "npsn": "50305905",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN 1 KODI",
+    "npsn": "69727866",
+    "kecamatan": "Kodi",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMKN 1 KODI BANGEDO",
+    "npsn": "69757517",
+    "kecamatan": "Kodi Bangedo",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMKN 1 KODI UTARA",
+    "npsn": "69759089",
+    "kecamatan": "Kodi Utara",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMKN 1 KOTA KOMBA",
+    "npsn": "69726021",
+    "kecamatan": "Kota Komba",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMKN 1 KUPANG",
+    "npsn": "50304998",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKN 1 KUWUS",
+    "npsn": "50308202",
+    "kecamatan": "Kuwus",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMKN 1 LABUAN BAJO",
+    "npsn": "50304778",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMKN 1 LAMALERA",
+    "npsn": "50306165",
+    "kecamatan": "Wulandoni",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMKN 1 LAMBALEDA",
+    "npsn": "50308609",
+    "kecamatan": "Lamba Leda Utara",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMKN 1 LAMBOYA",
+    "npsn": "60726239",
+    "kecamatan": "Laboya Barat",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMKN 1 LEWOLEBA",
+    "npsn": "50304390",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMKN 1 LOBALAIN",
+    "npsn": "50304612",
+    "kecamatan": "Lobalain",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMKN 1 LOLI",
+    "npsn": "50304071",
+    "kecamatan": "Loli",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMKN 1 NANGARORO",
+    "npsn": "69774953",
+    "kecamatan": "Nangaroro",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMKN 1 ROTE BARAT",
+    "npsn": "50304613",
+    "kecamatan": "Rote Barat",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMKN 1 SABU BARAT",
+    "npsn": "50300264",
+    "kecamatan": "Sabu Barat",
+    "kabupaten_kota": "Kab. Sabu Raijua"
+  },
+  {
+    "nama": "SMKN 1 SAMBI RAMPAS",
+    "npsn": "69768165",
+    "kecamatan": "Congkar",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMKN 1 SOE",
+    "npsn": "50307306",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKN 1 TANA RIGHU",
+    "npsn": "69815324",
+    "kecamatan": "Tana Righu",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMKN 1 WAE RII",
+    "npsn": "50307943",
+    "kecamatan": "Wae Ri`I",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMKN 1 WAIKABUBAK",
+    "npsn": "50304079",
+    "kecamatan": "Kota Waikabubak",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMKN 1 WANUKAKA",
+    "npsn": "60726238",
+    "kecamatan": "Wanokaka",
+    "kabupaten_kota": "Kab. Sumba Barat"
+  },
+  {
+    "nama": "SMKN 1 WELAK",
+    "npsn": "50308201",
+    "kecamatan": "Welak",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMKN 1 WEWEWA TIMUR",
+    "npsn": "69759090",
+    "kecamatan": "Wewewa Timur",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMKN 2 BELU",
+    "npsn": "50309372",
+    "kecamatan": "Tasifeto Timur",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMKN 2 ELAR",
+    "npsn": "69774562",
+    "kecamatan": "Elar Selatan",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMKN 2 KOMODO",
+    "npsn": "69775283",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMKN 2 Kota Komba",
+    "npsn": "69888710",
+    "kecamatan": "Kota Komba",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMKN 2 KUPANG",
+    "npsn": "50304997",
+    "kecamatan": "Kota Lama",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKN 2 KUPANG BARAT",
+    "npsn": "69827625",
+    "kecamatan": "Kupang Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKN 2 Lamba Leda",
+    "npsn": "69888796",
+    "kecamatan": "Lamba Leda",
+    "kabupaten_kota": "Kab. Manggarai Timur"
+  },
+  {
+    "nama": "SMKN 2 MAUMERE",
+    "npsn": "50306093",
+    "kecamatan": "Alok Barat",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMKN 2 WEWEWA BARAT",
+    "npsn": "69727077",
+    "kecamatan": "Wewewa Barat",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMKN 3 KALABAHI",
+    "npsn": "50308996",
+    "kecamatan": "Alor Tengah Utara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN 3 KUPANG",
+    "npsn": "50304991",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKN 3 PAHUNGA LODU",
+    "npsn": "50305770",
+    "kecamatan": "Pahunga Lodu",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMKN 4 KALABAHI",
+    "npsn": "50305904",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN 4 KUPANG",
+    "npsn": "50304992",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKN 4 LEWA",
+    "npsn": "50305769",
+    "kecamatan": "Lewa",
+    "kabupaten_kota": "Kab. Sumba Timur"
+  },
+  {
+    "nama": "SMKN 5 KUPANG",
+    "npsn": "50305267",
+    "kecamatan": "Kota Raja",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKN 6 KUPANG",
+    "npsn": "50304940",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKN 7 KUPANG",
+    "npsn": "60702921",
+    "kecamatan": "Alak",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKN 8 KUPANG",
+    "npsn": "60702922",
+    "kecamatan": "Maulafa",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKN Alor Besar",
+    "npsn": "69864625",
+    "kecamatan": "Alor Barat Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN AMPERA",
+    "npsn": "69754734",
+    "kecamatan": "Alor Barat Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN BAKALANG",
+    "npsn": "69757332",
+    "kecamatan": "Pantar Timur",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN BIKOMI SELATAN",
+    "npsn": "69894300",
+    "kecamatan": "Bikomi Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMKN BOKING",
+    "npsn": "50307308",
+    "kecamatan": "Boking",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKN BUKAPITING",
+    "npsn": "69756418",
+    "kecamatan": "Alor Timur Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN KAYANG",
+    "npsn": "69757276",
+    "kecamatan": "Pantar Barat Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN KLETEK SUAI",
+    "npsn": "69772591",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMKN KOBALIMA",
+    "npsn": "50309394",
+    "kecamatan": "Kobalima",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMKN KOKAR",
+    "npsn": "50301671",
+    "kecamatan": "Alor Barat Laut",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN MALAIPEA",
+    "npsn": "69758212",
+    "kecamatan": "Alor Selatan",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN MARITAING",
+    "npsn": "69725863",
+    "kecamatan": "Alor Timur",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN MURIABANG",
+    "npsn": "69758177",
+    "kecamatan": "Pantar Tengah",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN NIBAAF",
+    "npsn": "69768282",
+    "kecamatan": "Noemuti",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMKN OP",
+    "npsn": "50309199",
+    "kecamatan": "Nunkolo",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKN PAISANAUNU",
+    "npsn": "69933644",
+    "kecamatan": "Biboki Tanpah",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMKN Pandai",
+    "npsn": "69867944",
+    "kecamatan": "Pantar",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKN PANTAI BARU",
+    "npsn": "50305348",
+    "kecamatan": "Pantai Baru",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMKN PERIKANAN WINI",
+    "npsn": "50301010",
+    "kecamatan": "Insana Utara",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMKN RIUNG",
+    "npsn": "50306189",
+    "kecamatan": "Riung",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMKN SASITAMEAN",
+    "npsn": "50309391",
+    "kecamatan": "Sasitamean",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMKN TALIBURA",
+    "npsn": "50302300",
+    "kecamatan": "Talibura",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMKN TOIANAS",
+    "npsn": "50307311",
+    "kecamatan": "Toianas",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKN WEWIKU BADARAI",
+    "npsn": "50309397",
+    "kecamatan": "Wewiku",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMKS BANGUN MANDIRI",
+    "npsn": "69883260",
+    "kecamatan": "Golewa Barat",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMKS BINA KARYA TUAPAKAS",
+    "npsn": "50309204",
+    "kecamatan": "Kuanfatu",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKS BINA KUSUMA RUTENG",
+    "npsn": "50303342",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMKS BINA MANDIRI",
+    "npsn": "69775286",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMKS BINA MARITIM MAUMERE",
+    "npsn": "50302297",
+    "kecamatan": "Nelle",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMKS CAHAYA PUTERA KUPANG",
+    "npsn": "50305264",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKS DUA PUTRA BIINMAFO",
+    "npsn": "50307419",
+    "kecamatan": "Miomafo Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMKS EFATA KUPANG",
+    "npsn": "50308936",
+    "kecamatan": "Kota Lama",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKS EFATA SULAMU",
+    "npsn": "50306575",
+    "kecamatan": "Sulamu",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKS ELANUS RUTENG",
+    "npsn": "50308524",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMKS ILELEWOTOLOK",
+    "npsn": "50304392",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMKS INFORMATIKA ST PETRUS RUTENG",
+    "npsn": "50309261",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMKS KARYA KUPANG",
+    "npsn": "50304994",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKS KARYA RUTENG",
+    "npsn": "50303343",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMKS KASIH BUNDA",
+    "npsn": "69765815",
+    "kecamatan": "Alok Timur",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMKS KATOLIK KEFAMENANU",
+    "npsn": "50301013",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMKS KATOLIK KUSUMA ATAMBUA",
+    "npsn": "50301399",
+    "kecamatan": "Kota Atambua",
+    "kabupaten_kota": "Kab. Belu"
+  },
+  {
+    "nama": "SMKS KATOLIK ST ISIDORUS BOAWAE",
+    "npsn": "50308303",
+    "kecamatan": "Boawae",
+    "kabupaten_kota": "Kab. Nagekeo"
+  },
+  {
+    "nama": "SMKS KATOLIK ST PIUS X INSANA",
+    "npsn": "50307417",
+    "kecamatan": "Insana",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMKS KATOLIK SYURADIKARA",
+    "npsn": "69768281",
+    "kecamatan": "Ende Tengah",
+    "kabupaten_kota": "Kab. Ende"
+  },
+  {
+    "nama": "SMKS KAWULA KARYA",
+    "npsn": "50304391",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMKS KELAUTAN MENTARI KUPANG",
+    "npsn": "50306574",
+    "kecamatan": "Kupang Barat",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKS KENCANA SAKTI",
+    "npsn": "50305265",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKS KENCANA SAKTI LIDAMANU",
+    "npsn": "50309412",
+    "kecamatan": "Rote Barat Daya",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMKS KESEHATAN TUNAS TIMUR",
+    "npsn": "69757516",
+    "kecamatan": "Wewewa Timur",
+    "kabupaten_kota": "Kab. Sumba Barat Daya"
+  },
+  {
+    "nama": "SMKS KRISTEN 1 KUPANG",
+    "npsn": "50305266",
+    "kecamatan": "Kota Raja",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKS KRISTEN 2 KUPANG",
+    "npsn": "50304995",
+    "kecamatan": "Kota Raja",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKS KRISTEN FAUTMOLO",
+    "npsn": "50309163",
+    "kecamatan": "Fautmolo",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKS KRISTEN NIKI NIKI",
+    "npsn": "50309053",
+    "kecamatan": "Amanuban Tengah",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKS KRISTEN OINLASI",
+    "npsn": "50309049",
+    "kecamatan": "Amanatun Selatan",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKS KRISTEN SOE",
+    "npsn": "50300588",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKS KUSUMA BAKTI",
+    "npsn": "50310692",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMKS LEMBANG",
+    "npsn": "50304611",
+    "kecamatan": "Rote Barat Laut",
+    "kabupaten_kota": "Kab. Rote Ndao"
+  },
+  {
+    "nama": "SMKS MENTARI KUPANG",
+    "npsn": "50304996",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKS MIFTAHUDDIN OE EKAM",
+    "npsn": "50309206",
+    "kecamatan": "Amanuban Timur",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKS MUHAMADIYAH KUPANG",
+    "npsn": "50304941",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKS PELAYARAN KUPANG",
+    "npsn": "50304993",
+    "kecamatan": "Kelapa Lima",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKS PGRI BAJAWA",
+    "npsn": "50302959",
+    "kecamatan": "Bajawa",
+    "kabupaten_kota": "Kab. Ngada"
+  },
+  {
+    "nama": "SMKS PGRI KILOBESA",
+    "npsn": "50309203",
+    "kecamatan": "Amanuban Barat",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKS PLK TITFEN",
+    "npsn": "60728905",
+    "kecamatan": "Amabi Oefeto Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKS REFORMASI PLUS",
+    "npsn": "69786214",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKS SANCTUS LEWOLEBA",
+    "npsn": "50304377",
+    "kecamatan": "Nubatukan",
+    "kabupaten_kota": "Kab. Lembata"
+  },
+  {
+    "nama": "SMKS SANTA MATHILDA",
+    "npsn": "50305908",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMKS ST ELISABETH LELA",
+    "npsn": "50305308",
+    "kecamatan": "Lela",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMKS ST GABRIEL MAUMERE",
+    "npsn": "50302301",
+    "kecamatan": "Alok Timur",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMKS ST THOMAS MAUMERE",
+    "npsn": "50302302",
+    "kecamatan": "Alok",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMKS ST WILLIBRODUS BETUN",
+    "npsn": "50301398",
+    "kecamatan": "Malaka Tengah",
+    "kabupaten_kota": "Kab. Malaka"
+  },
+  {
+    "nama": "SMKS ST. AGUSTINUS",
+    "npsn": "69733979",
+    "kecamatan": "Kota Kefamenanu",
+    "kabupaten_kota": "Kab. Timor Tengah Utara"
+  },
+  {
+    "nama": "SMKS STA MATHILDA RUTENG",
+    "npsn": "50309417",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMKS STELLA MARIS LABUAN BAJO",
+    "npsn": "50304779",
+    "kecamatan": "Komodo",
+    "kabupaten_kota": "Kab. Manggarai Barat"
+  },
+  {
+    "nama": "SMKS TAWATANA KEWAPANTE",
+    "npsn": "50302303",
+    "kecamatan": "Kewapante",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMKS TECMATIK PLUS",
+    "npsn": "69774730",
+    "kecamatan": "Kupang Tengah",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKS TEKNIK ANUGERAH SOE",
+    "npsn": "50308481",
+    "kecamatan": "Kota Soe",
+    "kabupaten_kota": "Kab. Timor Tengah Selatan"
+  },
+  {
+    "nama": "SMKS TUNAS ISAI",
+    "npsn": "50306576",
+    "kecamatan": "Kupang Timur",
+    "kabupaten_kota": "Kab. Kupang"
+  },
+  {
+    "nama": "SMKS WIDYA BHAKTI",
+    "npsn": "50303347",
+    "kecamatan": "Langke Rembong",
+    "kabupaten_kota": "Kab. Manggarai"
+  },
+  {
+    "nama": "SMKS WIRAKARYA KUPANG",
+    "npsn": "50304970",
+    "kecamatan": "Oebobo",
+    "kabupaten_kota": "Kota Kupang"
+  },
+  {
+    "nama": "SMKS YAKINDA HABELENG",
+    "npsn": "69725865",
+    "kecamatan": "Teluk Mutiara",
+    "kabupaten_kota": "Kab. Alor"
+  },
+  {
+    "nama": "SMKS YAPEN RAYS MAUMERE",
+    "npsn": "50302316",
+    "kecamatan": "Alok Barat",
+    "kabupaten_kota": "Kab. Sikka"
+  },
+  {
+    "nama": "SMKS YOHANES XXIII MAUMERE",
+    "npsn": "50302270",
+    "kecamatan": "Alok Timur",
+    "kabupaten_kota": "Kab. Sikka"
+  }
+]

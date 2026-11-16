@@ -14,3 +14,10 @@ Thumbs.db
 # Data pribadi (jangan di-commit)
 api-capture*.json
 
+
+# Output scrape lulusan (data pribadi)
+data-lulusan/
+lulusan_ntt_*.csv
+rekap_lulusan_ntt.csv
+rekap_kabupaten_ntt.csv
+map_sid_*.json
