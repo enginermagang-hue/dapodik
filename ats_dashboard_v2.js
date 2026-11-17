@@ -4,7 +4,9 @@
 // Cache hibrida TTL 7 hari: in-memory + localStorage (wilayah) + IndexedDB (list siswa, detail-anak).
 (() => {
   if (document.getElementById('__atsdash')) { document.getElementById('__atsdash').remove(); }
-  const CONFIG = { KODE_WILAYAH: '240000', PER_PAGE: 100, DELAY: 300, MAX_AUTO_PAGES: 20, DET_CONC_MAX: 1, DET_DELAY: 900, DET_JITTER: 300, DET_RPM: 55, DET_CAP: 3000, TTL_MS: 7 * 24 * 3600 * 1000, LIST_MAX: 1000, DET_MAX: 20000 };
+  document.querySelectorAll('style[data-atsdash]').forEach(s => s.remove());
+  const CONFIG = { KODE_WILAYAH: '240000', PER_PAGE: 100, DELAY: 300, RENDER_CHUNK: 2000, DET_CONC_MAX: 1, DET_DELAY: 900, DET_JITTER: 300, DET_RPM: 55, DET_CAP: 3000, TTL_MS: 7 * 24 * 3600 * 1000, LIST_MAX: 2000, DET_MAX: 20000 };
+  const errMsgOf = (j, fb) => { try { const m = j && (j.message || (j.meta && j.meta.message)); if (m && String(m).trim()) return String(m).trim(); } catch {} return fb; };
   const getBearer = () => {
     const deepFind = (o, d = 0) => {
       if (!o || d > 4) return '';
@@ -27,23 +29,28 @@
   const TOKEN = getBearer();
   if (!TOKEN) { alert('Token tidak ketemu. Login ulang.'); return; }
   const sleep = ms => new Promise(r => setTimeout(r, ms));
-  const csvEsc = v => { if (v == null) return ''; const s = String(v).replace(/\r?\n/g, ' '); return /[",;]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
-  const state = { rows: [], page: 0, total: 0, loading: false, stop: false, q: '', kat: '', stat: '', sort: 'nama', jj: { sma: false, smk: false, slb: false }, skipCache: false, cache: { hit: 0, miss: 0, oldest: 0 } };
+  const csvCell = v => { if (v == null) return ''; let s = String(v).replace(/\r?\n/g, ' '); if (/^[=+\-@\t\r]/.test(s)) s = "'" + s; return /[",;\n']/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
+  const state = { rows: [], page: 0, total: 0, perPage: CONFIG.PER_PAGE, listLoading: false, detLoading: false, runId: 0, stop: false, q: '', kat: '', stat: '', sort: 'nama', jj: { sma: false, smk: false, slb: false }, skipCache: false, cache: { hit: 0, miss: 0, oldest: 0 } };
   // --- Cache hibrida (TTL 7 hari) ---
   const nowMs = () => Date.now();
   const ageDays = (t) => t ? ((nowMs() - t) / 86400000).toFixed(1) + 'h' : '-';
   const lsGet = (k) => { try { const j = JSON.parse(localStorage.getItem(k) || 'null'); if (j && nowMs() - j.t < CONFIG.TTL_MS) return j; } catch {} return null; };
   const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify({ t: nowMs(), v })); } catch {} };
-  let _idb = null;
-  const idb = () => new Promise((res, rej) => {
-    if (_idb) return res(_idb);
-    try {
-      const rq = indexedDB.open('atsdash-v2', 1);
-      rq.onupgradeneeded = () => { const db = rq.result; db.createObjectStore('list'); db.createObjectStore('detail'); };
-      rq.onsuccess = () => { _idb = rq.result; res(_idb); };
-      rq.onerror = () => rej(rq.error);
-    } catch (e) { rej(e); }
-  });
+  let _idb = null, _idbP = null;
+  const idb = () => {
+    if (_idb) return Promise.resolve(_idb);
+    if (_idbP) return _idbP;
+    _idbP = new Promise((res, rej) => {
+      try {
+        const rq = indexedDB.open('atsdash-v2', 1);
+        rq.onupgradeneeded = () => { const db = rq.result; if (!db.objectStoreNames.contains('list')) db.createObjectStore('list'); if (!db.objectStoreNames.contains('detail')) db.createObjectStore('detail'); };
+        rq.onsuccess = () => { _idb = rq.result; res(_idb); };
+        rq.onerror = () => { _idbP = null; rej(rq.error); };
+        rq.onblocked = () => {};
+      } catch (e) { _idbP = null; rej(e); }
+    });
+    return _idbP;
+  };
   const idbRec = async (store, key) => {
     try {
       const db = await idb();
@@ -74,6 +81,9 @@
   const SLB_GROUP = ['slb', 'sdlb', 'smplb', 'smlb'];
   const _unknownBentuk = new Set();
   const detOf = x => x._det || {};
+  const flatOf = (j) => { const v = (j || {}).data || {}, s = (v.pendidikan || {}).sekolah_terakhir || {}, idn = v.identitas || {}, w = v.wilayah || {}; return { bentuk: (s.bentuk || '').toLowerCase(), jenjang: (s.jenjang || '').toLowerCase(), nama: s.nama || '', tingkat: s.tingkat || '', ibu: idn.nama_ibu || '', ayah: idn.nama_ayah || '', alamat: idn.alamat_jalan || '', rt: idn.rt ?? '', rw: idn.rw ?? '', lintang: idn.lintang ?? '', bujur: idn.bujur ?? '', d_desa: w.desa || '', d_kec: w.kecamatan || '', d_kab: w.kabupaten || '', d_prov: w.provinsi || '' }; };
+  const esc = v => v == null ? '' : String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  const normId = v => String(v ?? '');
   const matchJj = (x) => {
     const on = state.jj;
     if (!on.sma && !on.smk && !on.slb) return true;
@@ -120,7 +130,7 @@
   #__atsdash .bar{display:flex;gap:8px;padding:10px 14px;align-items:center;flex-wrap:wrap;border-top:1px solid #30363d}
   #__atsdash .modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;z-index:1000000}
   #__atsdash .card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px;max-width:640px;width:92%;max-height:84vh;overflow:auto}`;
-  const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
+  const st = document.createElement('style'); st.dataset.atsdash = '1'; st.textContent = css; document.head.appendChild(st);
   const root = document.createElement('div'); root.id = '__atsdash';
   root.innerHTML = `<div class="hd"><b>ATS Dashboard v2</b><span id="__st">siap</span><span class="sp"></span>
     <input id="__q" placeholder="cari nama/nik/nisn/desa..." style="width:260px">
@@ -155,13 +165,34 @@
     if (state.sort === 'desa') r.sort((a, b) => (a.desa || '').localeCompare(b.desa || ''));
     return r;
   };
-  const render = () => {
-    const r = filtered().slice(0, 2000);
+  let renderToken = 0;
+  const rowHtml = (x, i) => { const d = detOf(x); const dom = [d.alamat, d.d_desa, d.d_kec].filter(Boolean).join(', '); return `<tr><td>${i + 1}</td><td>${esc(x.nama)}</td><td>${esc(x.jenis_kelamin)}</td><td>${x.usia ?? ''}</td><td>${esc(x.kategori)}</td><td>${esc(x.status_verifikasi)}</td><td>${esc(x.desa)}</td><td>${esc(x.kode_wilayah)}</td><td>${esc(x.nisn)}</td><td>${esc(d.ibu)}</td><td>${esc(dom)}</td><td>${esc(d.bentuk ? d.bentuk + ' - ' + (d.nama || '') : (d.nama || ''))}</td><td><button data-id="${esc(normId(x.ats_id))}">Detail</button></td></tr>`; };
+  const renderInfo = (shown, total) => {
     const detMissing = state.rows.filter(x => !x._det).length;
-    $('#__tb').innerHTML = r.map((x, i) => { const d = detOf(x); const dom = [d.alamat, d.d_desa, d.d_kec].filter(Boolean).join(', '); return `<tr><td>${i + 1}</td><td>${x.nama || ''}</td><td>${x.jenis_kelamin || ''}</td><td>${x.usia ?? ''}</td><td>${x.kategori || ''}</td><td>${x.status_verifikasi || ''}</td><td>${x.desa || ''}</td><td>${x.kode_wilayah || ''}</td><td>${x.nisn || ''}</td><td>${d.ibu || ''}</td><td>${dom}</td><td>${d.bentuk ? d.bentuk + ' - ' + (d.nama || '') : (d.nama || '')}</td><td><button data-id="${x.ats_id}">Detail</button></td></tr>`; }).join('');
-    $('#__info').textContent = `${r.length} tampil / ${state.rows.length} dimuat / total ${state.total} (page ${state.page})` + (detMissing ? ` | butuh detail: ${detMissing} (klik Detail++)` : '') + (_unknownBentuk.size ? ` | bentuk asing: ${[..._unknownBentuk].join(',')} (cek console)` : '') + ` | cache H${state.cache.hit}/M${state.cache.miss}` + (state.cache.oldest ? ` tertua ${ageDays(state.cache.oldest)}` : '');
-    $('#__tb').querySelectorAll('button').forEach(b => b.onclick = () => showDetail(b.dataset.id));
+    $('#__info').textContent = `${shown} tampil / ${state.rows.length} dimuat / total ${state.total} (page ${state.page})` + (detMissing ? ` | butuh detail: ${detMissing} (klik Detail++)` : '') + (detMissing && jjActive() ? ' | PERINGATAN: filter jenjang tidak lengkap' : '') + (_unknownBentuk.size ? ` | bentuk asing: ${[..._unknownBentuk].join(',')} (cek console)` : '') + ` | cache H${state.cache.hit}/M${state.cache.miss}` + (state.cache.oldest ? ` tertua ${ageDays(state.cache.oldest)}` : '');
   };
+  const render = () => {
+    const my = ++renderToken;
+    const all = filtered();
+    const tb = $('#__tb');
+    tb.innerHTML = '';
+    renderInfo(0, all.length);
+    if (!all.length) return;
+    let i = 0;
+    const step = () => {
+      if (my !== renderToken) return;
+      const end = Math.min(i + CONFIG.RENDER_CHUNK, all.length);
+      let html = '';
+      for (; i < end; i++) html += rowHtml(all[i], i);
+      tb.insertAdjacentHTML('beforeend', html);
+      renderInfo(i, all.length);
+      setSt(all.length > 5000 ? `render ${i}/${all.length}...` : 'siap');
+      if (i < all.length) requestAnimationFrame(step);
+      else if (my === renderToken) setSt('siap');
+    };
+    requestAnimationFrame(step);
+  };
+  if (!root.__deleg) { root.__deleg = 1; $('#__tb').addEventListener('click', e => { const b = e.target.closest('button[data-id]'); if (b) showDetail(b.dataset.id); }); }
   let detConc = CONFIG.DET_CONC_MAX, okStreak = 0, wafUntil = 0, wafHits = 0;
   // --- deteksi WAF + pacing ---
   const isWafCT = (ct) => /text\/html/i.test(ct || '');
@@ -208,7 +239,26 @@
         if (a >= retries) throw lastErr;
         continue;
       }
-      if (!res.ok) throw new Error('HTTP ' + res.status);
+      if (!res.ok) {
+        // surface pesan asli server (mis. "per_page maksimal 100") + auto-clamp 400 validation
+        let body = null;
+        try { body = txt.trim() ? JSON.parse(txt) : null; } catch {}
+        if (res.status === 400 && /per_page/i.test(JSON.stringify(body || txt).slice(0, 500))) {
+          const m = /maksimal\s+(\d+)/i.exec(JSON.stringify(body || '') + ' ' + txt);
+          if (m) {
+            const cap = Math.max(1, Math.min(parseInt(m[1], 10) || CONFIG.PER_PAGE, CONFIG.PER_PAGE));
+            const u = new URL(url, location.origin);
+            if (u.searchParams.get('per_page') !== String(cap)) {
+              u.searchParams.set('per_page', String(cap));
+              if (a >= retries) throw new Error('400: ' + errMsgOf(body, 'per_page melebihi batas server'));
+              url = u.pathname + u.search;
+              state.perPage = cap;
+              continue;
+            }
+          }
+        }
+        throw new Error(res.status + ': ' + errMsgOf(body, 'HTTP ' + res.status));
+      }
       if (!txt.trim()) {
         lastErr = new Error('respon kosong');
         await sleep(Math.min(1200 + Math.random() * 1200 + a * 800, 12000));
@@ -226,27 +276,29 @@
       }
     }
   }
-  async function ensureDetails() {
-    const need = state.rows.filter(x => !x._det).slice(0, CONFIG.DET_CAP);
+  async function ensureDetails(manual) {
+    const missing = state.rows.filter(x => !x._det);
+    if (!manual && !jjActive()) { render(); return; }
+    const need = missing.slice(0, CONFIG.DET_CAP);
     if (!need.length) { render(); return; }
-    if (state.loading) return; state.loading = true; state.stop = false;
+    if (state.detLoading) { setSt(`detail sedang berjalan (${need.length} antre)...`); return; }
+    state.detLoading = true; state.stop = false;
+    const myRun = ++state.runId;
     let i = 0, done = 0, fail = 0, errRows = 0, wafStop = false;
     setSt(`detail 0/${need.length}...`);
-    // probe 1 request dulu: kalau WAF aktif, tunggu tanpa menghabiskan retry
-    if (Date.now() < wafUntil) await waitWaf();
-    if (wafUntil && Date.now() < wafUntil) { state.loading = false; setSt('WAF masih aktif, coba lagi beberapa menit.'); return; }
-    const flatOf = (j) => { const v = (j || {}).data || {}, s = (v.pendidikan || {}).sekolah_terakhir || {}, idn = v.identitas || {}, w = v.wilayah || {}; return { bentuk: (s.bentuk || '').toLowerCase(), jenjang: (s.jenjang || '').toLowerCase(), nama: s.nama || '', tingkat: s.tingkat || '', ibu: idn.nama_ibu || '', ayah: idn.nama_ayah || '', alamat: idn.alamat_jalan || '', rt: idn.rt ?? '', rw: idn.rw ?? '', lintang: idn.lintang ?? '', bujur: idn.bujur ?? '', d_desa: w.desa || '', d_kec: w.kecamatan || '', d_kab: w.kabupaten || '', d_prov: w.provinsi || '' }; };
+    if (wafUntil && Date.now() < wafUntil) { state.detLoading = false; setSt('WAF masih aktif, coba lagi beberapa menit.'); return; }
     const worker = async () => {
-      while (i < need.length && !state.stop && !wafStop) {
+      while (i < need.length && !state.stop && !wafStop && myRun === state.runId) {
         const x = need[i++];
-        const hit = await idbRec('detail', x.ats_id);
+        const key = normId(x.ats_id);
+        const hit = await idbRec('detail', key);
         if (hit) { x._det = flatOf(hit.v); noteHit(hit.t); }
         else {
           await gate();
           try {
-            const j = await fetchJSON(`/ats-v2/api/v1/verifikasi/detail-anak/${encodeURIComponent(x.ats_id)}`);
+            const j = await fetchJSON(`/ats-v2/api/v1/verifikasi/detail-anak/${encodeURIComponent(key)}`);
             x._det = flatOf(j); state.cache.miss++; fail = 0;
-            await idbSetCap('detail', x.ats_id, j, CONFIG.DET_MAX, 'atsv2:detidx');
+            await idbSetCap('detail', key, j, CONFIG.DET_MAX, 'atsv2:detidx');
           } catch (e) {
             const m = String(e && e.message || e);
             fail++; errRows++;   // jangan set _det: biar bisa dicoba lagi nanti
@@ -259,64 +311,77 @@
       }
     };
     await Promise.all(Array(Math.min(detConc, need.length)).fill(0).map(worker));
-    state.loading = false;
+    if (myRun !== state.runId) return; // run lama dibuang
+    state.detLoading = false;
     const left = state.rows.filter(r => !r._det).length;
     setSt(wafStop ? `detail dihentikan WAF: ${done}/${need.length}, ${left} belum terisi. Tunggu beberapa menit lalu klik Detail++.` : `detail selesai ${done}/${need.length}${errRows ? ', gagal ' + errRows + ' (bisa ulang)' : ''}${need.length >= CONFIG.DET_CAP ? ' (cap ' + CONFIG.DET_CAP + ')' : ''}.`);
     render();
   }
   async function loadPages(n) {
-    if (state.loading) return; state.loading = true; state.stop = false;
+    if (state.listLoading) { setSt('daftar sedang dimuat, tunggu / Stop dulu...'); return; }
+    if (state.detLoading) { setSt('detail sedang berjalan, Stop dulu untuk muat ulang...'); return; }
+    state.listLoading = true; state.stop = false;
+    const myRun = ++state.runId;
     const wil = activeKode();
     const skip = state.skipCache; state.skipCache = false;
+    const unlimited = !n || n === Infinity;
+    let fetched = 0, lastRender = 0;
     try {
-      for (let i = 0; i < n && !state.stop; i++) {
+      for (let i = 0; unlimited || i < n; i++) {
+        if (state.stop || myRun !== state.runId) break;
         const p = state.page + 1;
-        const lk = `${wil}:${p}:${CONFIG.PER_PAGE}`;
+        const pp = state.perPage || CONFIG.PER_PAGE;
+        const lk = `${wil}:${p}:${pp}`;
         let j = null;
         if (!skip) { const rec = await idbRec('list', lk); if (rec) { j = rec.v; noteHit(rec.t); } }
         if (!j) {
           setSt(`page ${p}...`);
           state.cache.miss++;
-          j = await fetchJSON(`/ats-v2/api/v1/verifikasi/siswa?kode_wilayah=${encodeURIComponent(wil)}&page=${p}&per_page=${CONFIG.PER_PAGE}`);
+          j = await fetchJSON(`/ats-v2/api/v1/verifikasi/siswa?kode_wilayah=${encodeURIComponent(wil)}&page=${p}&per_page=${pp}`);
           await idbSetCap('list', lk, j, CONFIG.LIST_MAX, 'atsv2:listidx');
           await sleep(CONFIG.DELAY);
         }
         state.total = (j.meta && j.meta.total) || state.total;
         if (!j.data || !j.data.length) break;
-        state.rows.push(...j.data); state.page = p;
-        render();
-        if (j.data.length < CONFIG.PER_PAGE) break;
-        if (state.total && state.page * CONFIG.PER_PAGE >= state.total) break;
+        state.rows.push(...j.data); state.page = p; fetched += j.data.length;
+        const pct = state.total ? ` (${Math.round(state.rows.length / state.total * 100)}%)` : '';
+        setSt(`page ${p} — ${state.rows.length}/${state.total || '?'}${pct}... (Stop untuk henti)`);
+        const t = Date.now();
+        if (t - lastRender > 1500) { lastRender = t; render(); }
+        if (state.total && state.rows.length >= state.total) break;
       }
+      render();
       setSt(`selesai p${state.page} (${state.rows.length}/${state.total})`);
     } catch (e) { setSt('error: ' + e.message); }
-    state.loading = false;
-    if (!state.stop && state.rows.some(x => !x._det)) await ensureDetails();
+    if (myRun !== state.runId) return; // run lama dibuang
+    state.listLoading = false;
+    if (!state.stop && jjActive() && state.rows.some(x => !x._det)) await ensureDetails(false);
   }
   async function showDetail(atsId) {
-    setSt('detail ' + atsId.slice(0, 8) + '...');
+    const key = normId(atsId);
+    setSt('detail ' + key.slice(0, 8) + '...');
     try {
       let j = null;
-      const hit = await idbRec('detail', atsId);
+      const hit = await idbRec('detail', key);
       if (hit && hit.v && hit.v.data) { j = hit.v; noteHit(hit.t); }
       else {
-        j = await fetchJSON(`/ats-v2/api/v1/verifikasi/detail-anak/${encodeURIComponent(atsId)}`);
-        await idbSetCap('detail', atsId, j, CONFIG.DET_MAX, 'atsv2:detidx');
+        await gate();
+        j = await fetchJSON(`/ats-v2/api/v1/verifikasi/detail-anak/${encodeURIComponent(key)}`);
+        await idbSetCap('detail', key, j, CONFIG.DET_MAX, 'atsv2:detidx');
       }
       const d = j.data || {}, id = d.identitas || {}, w = d.wilayah || {}, p = d.pendidikan || {}, rg = d.registrasi || {};
-      const st0 = p.sekolah_terakhir || {};
-      const row = state.rows.find(x => x.ats_id === atsId);
+      const row = state.rows.find(x => normId(x.ats_id) === key);
       if (row) row._det = flatOf(j);
       const m = document.createElement('div'); m.className = 'modal';
-      m.innerHTML = `<div class="card"><b>${id.nama || atsId}</b> (${id.jenis_kelamin || ''}, ${id.usia ?? ''} th)<br>
-        NIK: ${id.nik || ''} | NISN: ${id.nisn || ''}<br>Lahir: ${id.tempat_lahir || ''}, ${id.tanggal_lahir || ''}<br>
-        Sekolah: ${(p.sekolah_terakhir || {}).nama || ''} (${(p.sekolah_terakhir || {}).npsn || ''}) | Kat: ${p.kategori || ''} | Verif: ${rg.status_verifikasi || ''}<br>
+      m.innerHTML = `<div class="card"><b>${esc(id.nama || key)}</b> (${esc(id.jenis_kelamin)}, ${id.usia ?? ''} th)<br>
+        NIK: ${esc(id.nik)} | NISN: ${esc(id.nisn)}<br>Lahir: ${esc(id.tempat_lahir)}, ${esc(id.tanggal_lahir)}<br>
+        Sekolah: ${esc((p.sekolah_terakhir || {}).nama)} (${esc((p.sekolah_terakhir || {}).npsn)}) | Kat: ${esc(p.kategori)} | Verif: ${esc(rg.status_verifikasi)}<br>
         <br><b>Keluarga dan domisili</b><br>
-        Nama ibu kandung: ${id.nama_ibu || '-'}<br>Nama ayah: ${id.nama_ayah || '-'}<br>
-        Alamat: ${id.alamat_jalan || '-'} RT${id.rt ?? '-'}/RW${id.rw ?? '-'}<br>
-        Desa/kelurahan: ${w.desa || '-'}<br>Kecamatan: ${w.kecamatan || '-'}<br>
-        Kabupaten/kota: ${w.kabupaten || '-'}<br>Provinsi: ${w.provinsi || '-'}<br>
-        Masalah: ${(d.permasalahan || []).map(x => x.jenis_permasalahan).join(' | ') || '-'}<br><br>
+        Nama ibu kandung: ${esc(id.nama_ibu) || '-'}<br>Nama ayah: ${esc(id.nama_ayah) || '-'}<br>
+        Alamat: ${esc(id.alamat_jalan) || '-'} RT${id.rt ?? '-'}/RW${id.rw ?? '-'}<br>
+        Desa/kelurahan: ${esc(w.desa) || '-'}<br>Kecamatan: ${esc(w.kecamatan) || '-'}<br>
+        Kabupaten/kota: ${esc(w.kabupaten) || '-'}<br>Provinsi: ${esc(w.provinsi) || '-'}<br>
+        Masalah: ${esc((d.permasalahan || []).map(x => x.jenis_permasalahan).join(' | ')) || '-'}<br><br>
         <button id="__mclose">Tutup</button></div>`;
       m.querySelector('#__mclose').onclick = () => m.remove();
       m.onclick = e => { if (e.target === m) m.remove(); };
@@ -327,7 +392,7 @@
     sel.innerHTML = `<option value="">${firstLabel}</option>` + items.map(x => `<option value="${x.kode_wilayah}">${x.nama}</option>`).join('');
     sel.disabled = !items.length;
   };
-  const resetData = () => { state.rows = []; state.page = 0; state.total = 0; state.cache.hit = 0; state.cache.miss = 0; state.cache.oldest = 0; render(); };
+  const resetData = () => { state.stop = true; state.runId++; state.rows = []; state.page = 0; state.total = 0; state.cache.hit = 0; state.cache.miss = 0; state.cache.oldest = 0; state.detLoading = false; state.listLoading = false; render(); };
   for (const k of KABUPATEN) { const o = document.createElement('option'); o.value = k.kode_wilayah; o.textContent = k.nama; $('#__kab').appendChild(o); }
   $('#__kab').onchange = async e => {
     const kab = e.target.value || '240000';
@@ -349,30 +414,32 @@
   const onJj = () => {
     state.jj.sma = $('#__jsma').checked; state.jj.smk = $('#__jsmk').checked; state.jj.slb = $('#__jslb').checked;
     render();
-    if (jjActive() && state.rows.some(x => !x._det)) ensureDetails();
+    if (jjActive() && state.rows.some(x => !x._det)) ensureDetails(true);
   };
   $('#__jsma').onchange = onJj; $('#__jsmk').onchange = onJj; $('#__jslb').onchange = onJj;
-  $('#__det').onclick = () => ensureDetails();
-  $('#__q').oninput = e => { state.q = e.target.value; render(); };
+  $('#__det').onclick = () => ensureDetails(true);
+  let qTimer = 0;
+  $('#__q').oninput = e => { clearTimeout(qTimer); const v = e.target.value; qTimer = setTimeout(() => { state.q = v; render(); }, 300); };
   $('#__kat').onchange = e => { state.kat = e.target.value; render(); };
   $('#__stat').onchange = e => { state.stat = e.target.value; render(); };
   $('#__sort').onchange = e => { state.sort = e.target.value; render(); };
-  $('#__load').onclick = () => { state.rows = []; state.page = 0; state.total = 0; state.cache.hit = 0; state.cache.miss = 0; state.cache.oldest = 0; loadPages(CONFIG.MAX_AUTO_PAGES); };
+  $('#__load').onclick = () => { state.stop = true; state.runId++; state.rows = []; state.page = 0; state.total = 0; state.cache.hit = 0; state.cache.miss = 0; state.cache.oldest = 0; state.listLoading = false; state.detLoading = false; state.skipCache = false; loadPages(Infinity); };
   $('#__more').onclick = () => loadPages(20);
-  $('#__all').onclick = () => { const need = state.total ? Math.ceil(state.total / CONFIG.PER_PAGE) - state.page : 20000; setSt(`muat semua (${need} page)...`); loadPages(Math.max(need, 0)); };
+  $('#__all').onclick = () => loadPages(Infinity);
   $('#__stop').onclick = () => { state.stop = true; };
-  $('#__refresh').onclick = () => { const n = state.page || CONFIG.MAX_AUTO_PAGES; state.rows = []; state.page = 0; state.total = 0; state.skipCache = true; setSt('segarkan: muat ulang tanpa cache...'); loadPages(n); };
+  $('#__refresh').onclick = () => { state.stop = true; state.runId++; state.rows = []; state.page = 0; state.total = 0; state.listLoading = false; state.detLoading = false; state.skipCache = true; setSt('segarkan: muat ulang tanpa cache...'); loadPages(Infinity); };
   $('#__clear').onclick = async () => { setSt('menghapus cache...'); await idbClearAll(); state.cache.hit = 0; state.cache.miss = 0; state.cache.oldest = 0; setSt('cache dihapus. Klik Muat.'); render(); };
-  $('#__close').onclick = () => root.remove();
+  $('#__close').onclick = () => { state.stop = true; state.runId++; document.querySelectorAll('style[data-atsdash]').forEach(s => s.remove()); root.remove(); };
   $('#__csv').onclick = () => {
     const r = filtered().map(x => { const d = detOf(x); const o = { ...x }; delete o._det; if (d.bentuk || d.nama || d.ibu || d.alamat) { o.d_bentuk = d.bentuk || ''; o.d_jenjang = d.jenjang || ''; o.d_sekolah = d.nama || ''; o.d_tingkat = d.tingkat || ''; o.d_ibu = d.ibu || ''; o.d_ayah = d.ayah || ''; o.d_alamat = d.alamat || ''; o.d_rt = d.rt ?? ''; o.d_rw = d.rw ?? ''; o.d_lintang = d.lintang ?? ''; o.d_bujur = d.bujur ?? ''; o.d_desa = d.d_desa || ''; o.d_kec = d.d_kec || ''; o.d_kab = d.d_kab || ''; o.d_prov = d.d_prov || ''; } return o; });
     if (!r.length) return;
     const cols = Object.keys(r[0]);
-    const out = [cols.join(',')].concat(r.map(x => cols.map(c => csvEsc(x[c])).join(','))).join('\n');
+    const out = '﻿' + [cols.join(',')].concat(r.map(x => cols.map(c => csvCell(x[c])).join(','))).join('\n');
     const a = document.createElement('a');
-    a.href = URL.createObjectURL(new Blob([out], { type: 'text/csv' }));
-    a.download = `ats-dashboard-${activeKode()}.csv`; a.click();
+    const url = URL.createObjectURL(new Blob([out], { type: 'text/csv;charset=utf-8' }));
+    a.href = url;
+    a.download = `ats-dashboard-${activeKode()}.csv`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 5000);
   };
-  if (!location.pathname.includes('/hasil-verifikasi/progres')) setSt('peringatan: tempel script ini di halaman /hasil-verifikasi/progres. Siap. Klik Muat (20 page awal).');
-  else setSt('siap. Klik Muat (20 page awal).');
+  if (!location.pathname.includes('/hasil-verifikasi/progres')) setSt('peringatan: tempel script ini di halaman /hasil-verifikasi/progres. Siap. Klik Muat (semua data).');
+  else setSt('siap. Klik Muat (semua data, maks 100/page sesuai batas server).');
 })();
